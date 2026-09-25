@@ -29,7 +29,55 @@
 .info-strip{max-width:var(--max);margin:-34px auto 0;position:relative;z-index:10;display:grid;grid-template-columns:1.1fr 1fr 1fr;background:white;box-shadow:0 18px 45px rgba(0,0,0,.13);border-bottom:5px solid var(--gold)} .info-card{padding:24px 28px;border-right:1px solid #eee;min-height:120px;display:flex;flex-direction:column;justify-content:center} .info-card:last-child{border-right:none} .info-card small{font-size:8px;font-weight:900;letter-spacing:.16em;color:#777} .info-card strong{font-family:Impact,'Arial Narrow',sans-serif;font-size:27px;margin:6px 0 5px} .info-card span{font-size:11px;color:#555} .info-card.highlight{background:var(--gold)} .info-card.highlight small,.info-card.highlight span{color:#2b2400}
 .section{max-width:var(--max);margin:0 auto;padding:94px 24px} .section-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:34px} .section-head h2{font-family:Impact,'Arial Narrow',sans-serif;font-size:clamp(50px,6.5vw,90px);line-height:.88;margin:0} .section-head p{max-width:430px;color:#666;line-height:1.6;margin:0;font-size:14px} .eyebrow{font-size:9px;letter-spacing:.2em;font-weight:900;color:#8a6900;margin:0 0 10px}
 .hub-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px} .hub-card{background:#f5f3ee;border:1px solid var(--line);padding:30px;min-height:230px;position:relative;overflow:hidden} .hub-card.dark{background:#101010;color:white;border-color:#222} .hub-card h3{font-family:Impact,'Arial Narrow',sans-serif;font-size:36px;line-height:.95;margin:6px 0 12px} .hub-card p{color:#626262;line-height:1.55;font-size:13px;max-width:520px} .hub-card.dark p{color:#aaa} .hub-card .big-link{display:inline-block;margin-top:16px;font-size:9px;font-weight:900;letter-spacing:.14em;border-bottom:3px solid var(--gold);padding-bottom:5px} .hub-photo{position:absolute;right:-15px;bottom:-30px;width:43%;height:88%;opacity:.26} .hub-photo img{width:100%;height:100%;object-fit:cover}
-.calendar-wrap{background:#090909;color:white;max-width:none;padding:90px max(20px,calc((100vw - var(--max))/2))} .calendar-layout{display:grid;grid-template-columns:.38fr .62fr;gap:34px;align-items:start} .calendar-copy h2{font-family:Impact,'Arial Narrow',sans-serif;font-size:clamp(52px,6vw,88px);line-height:.88;margin:0 0 20px} .calendar-copy p{color:#aaa;line-height:1.7;max-width:470px;font-size:14px} .calendar-key{margin-top:28px;border-top:1px solid #2a2a2a} .calendar-key div{padding:14px 0;border-bottom:1px solid #2a2a2a;display:flex;justify-content:space-between;gap:20px;font-size:10px;letter-spacing:.08em} .calendar-key strong{color:var(--gold)} .calendar-subscribe{margin-top:26px;border-top:1px solid #2a2a2a;padding-top:18px}.calendar-subscribe-head{display:flex;flex-direction:column;gap:5px;margin-bottom:10px}.calendar-subscribe-head strong{font-size:11px;letter-spacing:.12em;color:#fff}.calendar-subscribe-head span{font-size:11px;color:#777;line-height:1.45}.calendar-subscribe details{border-bottom:1px solid #2a2a2a}.calendar-subscribe summary{cursor:pointer;padding:13px 0;font-size:11px;font-weight:900;color:var(--gold);letter-spacing:.07em}.calendar-steps{padding:0 0 16px}.calendar-steps p{margin:0 0 12px!important;color:#aaa!important;font-size:12px!important;line-height:1.6!important}.calendar-steps .btn{min-height:44px}.copy-status{min-height:18px;margin:10px 0 0!important;color:var(--gold)!important;font-size:11px!important;font-weight:800}.calendar-help{margin-top:12px!important;font-size:11px!important;color:#777!important}.calendar-view-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}.calendar-view-label{font-size:9px;font-weight:900;letter-spacing:.14em;color:#777;margin:0;text-transform:uppercase}.calendar-view-switch{display:flex;border:1px solid #333}.calendar-view-btn{border:0;background:#161616;color:#aaa;padding:9px 14px;font-size:9px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}.calendar-view-btn.active{background:var(--gold);color:#090909}.calendar-frame{background:#fff;padding:8px;min-height:690px}.calendar-frame iframe{border:0;width:100%;height:690px;display:block}.calendar-agenda{display:none}
+.calendar-wrap{background:#090909;color:white;max-width:none;padding:90px max(20px,calc((100vw - var(--max))/2))}
+.calendar-layout{display:grid;grid-template-columns:.34fr .66fr;gap:34px;align-items:start}
+.calendar-copy h2{font-family:Impact,'Arial Narrow',sans-serif;font-size:clamp(52px,6vw,88px);line-height:.88;margin:0 0 20px}
+.calendar-copy p{color:#aaa;line-height:1.7;max-width:470px;font-size:14px}
+.calendar-key{margin-top:28px;border-top:1px solid #2a2a2a}
+.calendar-key div{padding:14px 0;border-bottom:1px solid #2a2a2a;display:flex;justify-content:space-between;gap:20px;font-size:10px;letter-spacing:.08em}
+.calendar-key strong{color:var(--gold)}
+.calendar-view-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+.calendar-nav{display:flex;align-items:center;gap:10px;min-width:0}
+.calendar-nav strong{font-family:Impact,'Arial Narrow',sans-serif;font-size:26px;letter-spacing:.03em;white-space:nowrap}
+.calendar-nav-btn{width:40px;height:40px;border:1px solid #333;background:#161616;color:#fff;font-size:20px;cursor:pointer}
+.calendar-view-switch{display:flex;border:1px solid #333}
+.calendar-view-btn{border:0;background:#161616;color:#aaa;padding:11px 16px;font-size:9px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+.calendar-view-btn.active{background:var(--gold);color:#090909}
+.calendar-frame{background:#fff;color:#111;padding:0;min-height:560px;overflow:hidden}
+.calendar-month-native{display:block;overflow-x:auto}
+.cal-month-inner{min-width:700px}
+.cal-weekdays{display:grid;grid-template-columns:repeat(7,1fr);background:#111;color:#aaa}
+.cal-weekdays span{padding:10px 8px;text-align:center;font-size:9px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr)}
+.cal-day{min-height:112px;border-right:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;padding:8px;background:#fff;overflow:hidden}
+.cal-day:nth-child(7n){border-right:0}
+.cal-day.muted{background:#f5f5f5;color:#aaa}
+.cal-day.today{box-shadow:inset 0 4px 0 var(--gold)}
+.cal-date{font-size:11px;font-weight:900;margin-bottom:7px}
+.cal-event{display:block;margin:4px 0;padding:5px 6px;background:#111;color:#fff;border-left:3px solid var(--gold);font-size:8px;font-weight:800;line-height:1.25}
+.cal-event.open-gym{background:#2a2a2a;border-left-color:#999}
+.cal-event-time{display:block;color:#cfcfcf;font-size:7px;margin-top:2px;font-weight:700}
+.calendar-list-native{display:none}
+.cal-list-row{display:grid;grid-template-columns:104px 1fr 130px;gap:14px;align-items:center;padding:16px 18px;border-bottom:1px solid #e6e6e6}
+.cal-list-row:first-child{border-top:0}
+.cal-list-date strong{display:block;font-family:Impact,'Arial Narrow',sans-serif;font-size:24px;line-height:1}
+.cal-list-date span{font-size:8px;font-weight:900;letter-spacing:.14em;color:#777}
+.cal-list-info small{font-size:8px;font-weight:900;letter-spacing:.12em;color:#8a6900}
+.cal-list-info h3{margin:5px 0 2px;font-size:17px}
+.cal-list-info p{margin:0;color:#777;font-size:11px}
+.cal-list-time{text-align:right;font-size:10px;font-weight:900}
+.cal-empty{padding:34px 20px;text-align:center;color:#777;font-size:13px}
+.calendar-subscribe{margin-top:26px;border-top:1px solid #2a2a2a;padding-top:18px}
+.calendar-subscribe-full{max-width:760px;margin:34px auto 0}
+.calendar-subscribe-head{display:flex;flex-direction:column;gap:5px;margin-bottom:10px}
+.calendar-subscribe-head strong{font-size:11px;letter-spacing:.12em;color:#fff}
+.calendar-subscribe-head span{font-size:11px;color:#777;line-height:1.45}
+.calendar-subscribe details{border-bottom:1px solid #2a2a2a}
+.calendar-subscribe summary{cursor:pointer;padding:13px 0;font-size:11px;font-weight:900;color:var(--gold);letter-spacing:.07em}
+.calendar-steps{padding:0 0 16px}
+.calendar-steps p{margin:0 0 12px!important;color:#aaa!important;font-size:12px!important;line-height:1.6!important}
+.calendar-steps .btn{min-height:44px}
+.copy-status{min-height:18px;margin:10px 0 0!important;color:var(--gold)!important;font-size:11px!important;font-weight:800}
 .schedule-list{border-top:3px solid #111} .game-row{display:grid;grid-template-columns:130px 105px 1fr 105px 75px;gap:14px;align-items:center;min-height:70px;border-bottom:1px solid var(--line)} .gdate{font-size:10px;font-weight:900;letter-spacing:.05em} .gtype{font-size:8px;font-weight:900;letter-spacing:.12em;color:#888} .gopp{font-family:Impact,'Arial Narrow',sans-serif;font-size:23px} .gtime{font-size:10px;font-weight:900;text-align:right} .gloc{font-size:8px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;text-align:right;color:#888}
 
 .feature-photos{max-width:var(--max);margin:32px auto 22px;padding:0 24px;display:grid;grid-template-columns:1fr;gap:14px}
@@ -86,7 +134,7 @@
 @media(max-width:620px){.parent-hub{padding:38px 16px 10px}.parent-links{grid-template-columns:1fr}.feature-photos{grid-template-columns:1fr;padding:0 14px;margin-top:22px}.feature-photo{height:285px}.photo-grid{grid-template-columns:1fr 1fr;padding:0 14px}.photo-grid figure{height:170px}.photo-grid figure:nth-child(3){grid-column:auto;height:260px}.priority-home{padding:38px 16px 18px}.announcement-photo{padding:0 14px 28px}.announcement-photo .feature-photo{height:285px}.upcoming-home{padding:18px 16px 48px}.next-event{grid-template-columns:82px 1fr;padding:14px 12px;gap:12px}.next-time{grid-column:2;text-align:left;margin-top:-5px}.calendar-view-head{align-items:flex-end}.notice-card{padding:22px}.notice-pill{white-space:normal}.upcoming-title{align-items:start;flex-direction:column}.program-values{grid-template-columns:1fr}.program-quote strong{font-size:44px}}
 
 @media(max-width:980px){.nav{display:none;position:absolute;top:82px;left:0;right:0;background:#090909;flex-direction:column;align-items:stretch;padding:20px 24px;border-top:1px solid #282828}.nav.open{display:flex}.nav a{padding:10px 0}.menu{display:block}.hero{grid-template-columns:1fr}.hero-copy{min-height:340px;padding:46px 24px 40px}.hero-photo{min-height:300px}.hero-photo:after{display:none}.info-strip{margin:0;grid-template-columns:1fr}.info-card{border-right:0;border-bottom:1px solid #eee}.hub-grid{grid-template-columns:1fr}.calendar-layout{grid-template-columns:1fr}.game-row{grid-template-columns:95px 1fr 80px}.gtype,.gloc{display:none}.staff-grid{grid-template-columns:repeat(2,1fr)}.support{grid-template-columns:80px 1fr}.support-copy{grid-column:2}.support-actions{grid-column:1/3}}
-@media(max-width:620px){.announce{font-size:8px}.header{height:72px;padding:0 16px}.brand img{width:50px;height:45px}.brand-copy strong{font-size:20px}.hero h1{font-size:62px}.hero-photo{min-height:240px}.hero-actions{flex-direction:column;align-items:flex-start}.section{padding:72px 18px}.section-head{align-items:start;flex-direction:column}.section-head h2{font-size:56px}.calendar-wrap{padding:72px 16px}.calendar-frame{min-height:560px;height:560px}.calendar-frame iframe{height:560px}.calendar-steps .btn{width:100%}.photo-grid{grid-template-columns:1fr;margin-bottom:50px}.photo-grid figure{height:480px}.placeholder-grid{grid-template-columns:1fr}.staff-grid{grid-template-columns:1fr}.support{grid-template-columns:1fr;padding:50px 18px}.support img{width:76px}.support-copy,.support-actions{grid-column:1}.support-actions{grid-template-columns:1fr}.support h2{font-size:48px}footer{align-items:flex-start;flex-direction:column;gap:24px}}
+@media(max-width:620px){.announce{font-size:8px}.header{height:72px;padding:0 16px}.brand img{width:50px;height:45px}.brand-copy strong{font-size:20px}.hero h1{font-size:62px}.hero-photo{min-height:240px}.hero-actions{flex-direction:column;align-items:flex-start}.section{padding:72px 18px}.section-head{align-items:start;flex-direction:column}.section-head h2{font-size:56px}.calendar-wrap{padding:72px 16px}.calendar-frame{min-height:0}.calendar-steps .btn{width:100%}.calendar-view-head{align-items:flex-start;flex-direction:column}.calendar-nav{width:100%;justify-content:space-between}.calendar-view-switch{width:100%}.calendar-view-btn{flex:1}.cal-list-row{grid-template-columns:82px 1fr;padding:14px 12px;gap:10px}.cal-list-time{grid-column:2;text-align:left;margin-top:-4px}.photo-grid{grid-template-columns:1fr;margin-bottom:50px}.photo-grid figure{height:480px}.placeholder-grid{grid-template-columns:1fr}.staff-grid{grid-template-columns:1fr}.support{grid-template-columns:1fr;padding:50px 18px}.support img{width:76px}.support-copy,.support-actions{grid-column:1}.support-actions{grid-template-columns:1fr}.support h2{font-size:48px}footer{align-items:flex-start;flex-direction:column;gap:24px}}
 </style>
 </head>
 <body>
@@ -137,16 +185,45 @@
 
 <section class="upcoming-home" id="upcoming">
 <div class="upcoming-title"><div><p class="eyebrow">UPCOMING COUGAR EVENTS</p><h2>NEXT 5.</h2></div><p>A quick parent-friendly look at what is coming up next, in order.</p></div>
-<div class="next-five">
-<div class="next-event"><div class="next-date"><strong>SEP 30</strong><span>WED</span></div><div class="next-info"><small>WORKOUTS / OPEN GYM</small><h3>Cougar Den</h3></div><div class="next-time">7:00–8:30 PM</div></div>
-<div class="next-event"><div class="next-date"><strong>OCT 5</strong><span>MON</span></div><div class="next-info"><small>WORKOUTS / OPEN GYM</small><h3>Old Gym</h3></div><div class="next-time">7:00–8:30 PM</div></div>
-<div class="next-event"><div class="next-date"><strong>OCT 7</strong><span>WED</span></div><div class="next-info"><small>WORKOUTS / OPEN GYM</small><h3>Old Gym</h3></div><div class="next-time">7:00–8:30 PM</div></div>
-<div class="next-event"><div class="next-date"><strong>OCT 12</strong><span>MON</span></div><div class="next-info"><small>WORKOUTS / OPEN GYM</small><h3>Cougar Den</h3></div><div class="next-time">7:00–8:30 PM</div></div>
-<div class="next-event"><div class="next-date"><strong>OCT 14</strong><span>WED</span></div><div class="next-info"><small>WORKOUTS / OPEN GYM</small><h3>Cougar Den</h3></div><div class="next-time">7:00–8:30 PM</div></div>
-</div>
+<div class="next-five" id="nextFive"></div>
 </section>
 
-<section class="calendar-wrap" id="calendar"><div class="calendar-layout"><div class="calendar-copy"><p class="eyebrow">LIVE TEAM CALENDAR</p><h2>SEE THE<br>WHOLE<br>MONTH.</h2><p>Use the calendar to see practices, open gyms, games and program events in one place. On phones, the calendar switches to a simpler agenda list so dates are easier to read.</p><div class="calendar-key"><div><span>Open gym begins</span><strong>Wed · Sept. 30 · 7:00–8:30 PM</strong></div><div><span>Regular open gyms</span><strong>Mon + Wed · 7:00–8:30 PM</strong></div><div><span>Oct. 5 + 7</span><strong>Old Gym</strong></div><div><span>All other current open gyms</span><strong>Cougar Den</strong></div></div><div class="calendar-subscribe"><div class="calendar-subscribe-head"><strong>WANT IT ON YOUR PHONE?</strong><span>Setup is different for Google and Apple, so use the instructions below instead of being sent to the wrong calendar.</span></div><details><summary>Google Calendar</summary><div class="calendar-steps"><p><strong>Google only lets you add a calendar by URL from a computer browser.</strong> Open Google Calendar on a computer → next to <em>Other calendars</em> click + → <em>From URL</em> → paste the Cascade calendar link → <em>Add calendar</em>. After that, it will appear in the Google Calendar app on your phone.</p><button type="button" class="btn gold copy-calendar-link" data-calendar-url="https://calendar.google.com/calendar/ical/c_5f2f898e5112aba62b3c823ee15c2d3c381fed0e2a47196908dc0459427654c9%40group.calendar.google.com/public/basic.ics">Copy Cascade Calendar Link</button></div></details><details><summary>iPhone / Apple Calendar</summary><div class="calendar-steps"><p>Open the Calendar app → <em>Calendars</em> → <em>Add Calendar</em> → <em>Add Subscription Calendar</em> → paste the Cascade calendar link → subscribe. This keeps future schedule changes synced.</p><button type="button" class="btn gold copy-calendar-link" data-calendar-url="https://calendar.google.com/calendar/ical/c_5f2f898e5112aba62b3c823ee15c2d3c381fed0e2a47196908dc0459427654c9%40group.calendar.google.com/public/basic.ics">Copy Cascade Calendar Link</button></div></details><p class="copy-status" aria-live="polite"></p></div><p class="calendar-help">For the simplest option, just use the Month / List calendar above. It always shows the current program schedule.</p></div><div><div class="calendar-view-head"><p class="calendar-view-label">Program calendar</p><div class="calendar-view-switch" aria-label="Calendar view"><button type="button" class="calendar-view-btn active" data-calendar-view="month">Month</button><button type="button" class="calendar-view-btn" data-calendar-view="list">List</button></div></div><div class="calendar-frame"><iframe class="calendar-month" src="https://calendar.google.com/calendar/embed?src=c_5f2f898e5112aba62b3c823ee15c2d3c381fed0e2a47196908dc0459427654c9%40group.calendar.google.com&ctz=America%2FLos_Angeles&mode=MONTH&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&wkst=1" title="Cascade Basketball monthly calendar" loading="lazy"></iframe><iframe class="calendar-agenda" src="https://calendar.google.com/calendar/embed?src=c_5f2f898e5112aba62b3c823ee15c2d3c381fed0e2a47196908dc0459427654c9%40group.calendar.google.com&ctz=America%2FLos_Angeles&mode=AGENDA&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&wkst=1" title="Cascade Basketball agenda calendar" loading="lazy"></iframe></div></div></div></section>
+<section class="calendar-wrap" id="calendar">
+<div class="calendar-layout">
+<div class="calendar-copy">
+<p class="eyebrow">PROGRAM CALENDAR</p>
+<h2>SEE THE<br>WHOLE<br>MONTH.</h2>
+<p>This calendar is built into the Cascade Basketball website, so families do not need to sign in to Google or allow third-party cookies just to see the schedule.</p>
+<div class="calendar-key">
+<div><span>Open gym begins</span><strong>Wed · Sept. 30 · 7:00–8:30 PM</strong></div>
+<div><span>Regular open gyms</span><strong>Mon + Wed · 7:00–8:30 PM</strong></div>
+<div><span>Oct. 5 + 7</span><strong>Old Gym</strong></div>
+<div><span>All other current open gyms</span><strong>Cougar Den</strong></div>
+</div>
+</div>
+<div>
+<div class="calendar-view-head">
+<div class="calendar-nav"><button type="button" class="calendar-nav-btn" id="calPrev" aria-label="Previous month">←</button><strong id="calendarMonthLabel"></strong><button type="button" class="calendar-nav-btn" id="calNext" aria-label="Next month">→</button></div>
+<div class="calendar-view-switch" aria-label="Calendar view"><button type="button" class="calendar-view-btn active" data-calendar-view="month">Month</button><button type="button" class="calendar-view-btn" data-calendar-view="list">List</button></div>
+</div>
+<div class="calendar-frame">
+<div class="calendar-month-native" id="calendarMonthView">
+<div class="cal-month-inner">
+<div class="cal-weekdays"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div>
+<div class="cal-grid" id="calendarGrid"></div>
+</div>
+</div>
+<div class="calendar-list-native" id="calendarListView"></div>
+</div>
+</div>
+</div>
+<div class="calendar-subscribe calendar-subscribe-full">
+<div class="calendar-subscribe-head"><strong>WANT IT ON YOUR PHONE?</strong><span>The website calendar above is the easiest option. If you want a subscription in your own calendar app, use the instructions below.</span></div>
+<details><summary>Google Calendar</summary><div class="calendar-steps"><p><strong>Google only lets you add a calendar by URL from a computer browser.</strong> Open Google Calendar on a computer → next to <em>Other calendars</em> click + → <em>From URL</em> → paste the Cascade calendar link → <em>Add calendar</em>.</p><button type="button" class="btn gold copy-calendar-link" data-calendar-url="https://calendar.google.com/calendar/ical/c_5f2f898e5112aba62b3c823ee15c2d3c381fed0e2a47196908dc0459427654c9%40group.calendar.google.com/public/basic.ics">Copy Cascade Calendar Link</button></div></details>
+<details><summary>iPhone / Apple Calendar</summary><div class="calendar-steps"><p>Open the Calendar app → <em>Calendars</em> → <em>Add Calendar</em> → <em>Add Subscription Calendar</em> → paste the Cascade calendar link → subscribe.</p><button type="button" class="btn gold copy-calendar-link" data-calendar-url="https://calendar.google.com/calendar/ical/c_5f2f898e5112aba62b3c823ee15c2d3c381fed0e2a47196908dc0459427654c9%40group.calendar.google.com/public/basic.ics">Copy Cascade Calendar Link</button></div></details>
+<p class="copy-status" aria-live="polite"></p>
+</div>
+</section>
 
 <section class="section" id="schedule"><div class="section-head"><div><p class="eyebrow">2026–27</p><h2>GAME<br>SCHEDULE.</h2></div><p>Varsity schedule. Dates and times can change; the official OSAA page remains the final published game source.</p></div><div class="schedule-list" id="scheduleList"></div><div style="margin-top:26px"><a class="btn gold" href="https://www.osaa.org/teams/68636" target="_blank" rel="noopener">Official OSAA Schedule ↗</a></div></section>
 
@@ -188,15 +265,91 @@ function dLocal(s){const [y,m,d]=s.split('-').map(Number);return new Date(y,m-1,
 function fmt(s){return new Intl.DateTimeFormat('en-US',{weekday:'short',month:'short',day:'numeric'}).format(dLocal(s)).toUpperCase()}
 const list=document.getElementById('scheduleList');
 list.innerHTML=schedule.map(g=>`<div class="game-row"><div class="gdate">${fmt(g.date)}</div><div class="gtype">${g.type==='league'?'LEAGUE':'NON-LEAGUE'}</div><div class="gopp">${g.location==='away'?'@ ':'vs. '}${g.opponent}</div><div class="gtime">${g.time}</div><div class="gloc">${g.location}</div></div>`).join('');
-const monthFrame=document.querySelector('.calendar-month'), agendaFrame=document.querySelector('.calendar-agenda');
+
+const openGyms=[
+{date:'2026-09-30',time:'7:00–8:30 PM',title:'Open Gym',location:'Cougar Den',kind:'open-gym'},
+{date:'2026-10-05',time:'7:00–8:30 PM',title:'Open Gym',location:'Old Gym',kind:'open-gym'},
+{date:'2026-10-07',time:'7:00–8:30 PM',title:'Open Gym',location:'Old Gym',kind:'open-gym'},
+{date:'2026-10-12',time:'7:00–8:30 PM',title:'Open Gym',location:'Cougar Den',kind:'open-gym'},
+{date:'2026-10-14',time:'7:00–8:30 PM',title:'Open Gym',location:'Cougar Den',kind:'open-gym'},
+{date:'2026-10-19',time:'7:00–8:30 PM',title:'Open Gym',location:'Cougar Den',kind:'open-gym'},
+{date:'2026-10-21',time:'7:00–8:30 PM',title:'Open Gym',location:'Cougar Den',kind:'open-gym'},
+{date:'2026-10-26',time:'7:00–8:30 PM',title:'Open Gym',location:'Cougar Den',kind:'open-gym'},
+{date:'2026-10-28',time:'7:00–8:30 PM',title:'Open Gym',location:'Cougar Den',kind:'open-gym'}
+];
+const gameEvents=schedule.map(g=>({date:g.date,time:g.time,title:`Varsity ${g.location==='away'?'@':'vs.'} ${g.opponent}`,location:g.location==='away'?'Away':'Home',kind:'game'}));
+const programEvents=[...openGyms,...gameEvents].sort((a,b)=>a.date.localeCompare(b.date)||a.time.localeCompare(b.time));
+
+function shortDateParts(s){
+  const d=dLocal(s);
+  return {
+    mon:new Intl.DateTimeFormat('en-US',{month:'short'}).format(d).toUpperCase(),
+    day:d.getDate(),
+    dow:new Intl.DateTimeFormat('en-US',{weekday:'short'}).format(d).toUpperCase()
+  };
+}
+function renderNextFive(){
+  const holder=document.getElementById('nextFive');
+  if(!holder)return;
+  const now=new Date(); now.setHours(0,0,0,0);
+  const upcoming=programEvents.filter(e=>dLocal(e.date)>=now).slice(0,5);
+  holder.innerHTML=upcoming.length?upcoming.map((e,i)=>{
+    const p=shortDateParts(e.date);
+    return `<div class="next-event"><div class="next-date"><strong>${p.mon} ${p.day}</strong><span>${p.dow}</span></div><div class="next-info"><small>${e.kind==='game'?'GAME':'WORKOUTS / OPEN GYM'}</small><h3>${e.title}</h3><p style="margin:3px 0 0;color:#777;font-size:11px">${e.location}</p></div><div class="next-time">${e.time}</div></div>`;
+  }).join(''):'<div class="cal-empty">No upcoming events are posted yet.</div>';
+}
+renderNextFive();
+
+const monthView=document.getElementById('calendarMonthView');
+const listView=document.getElementById('calendarListView');
+const monthLabel=document.getElementById('calendarMonthLabel');
+const grid=document.getElementById('calendarGrid');
 const viewButtons=[...document.querySelectorAll('.calendar-view-btn')];
+const today=new Date(); today.setHours(12,0,0,0);
+const nextEvent=programEvents.find(e=>dLocal(e.date)>=today);
+let calendarCursor=new Date(today.getFullYear(),today.getMonth(),1,12);
+const hasThisMonth=programEvents.some(e=>{const d=dLocal(e.date);return d.getFullYear()===today.getFullYear()&&d.getMonth()===today.getMonth();});
+if(!hasThisMonth&&nextEvent){const d=dLocal(nextEvent.date);calendarCursor=new Date(d.getFullYear(),d.getMonth(),1,12);}
+
+function isoDate(y,m,d){
+  return `${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+}
+function renderMonth(){
+  const y=calendarCursor.getFullYear(), m=calendarCursor.getMonth();
+  monthLabel.textContent=new Intl.DateTimeFormat('en-US',{month:'long',year:'numeric'}).format(calendarCursor).toUpperCase();
+  const first=new Date(y,m,1,12), startDay=first.getDay(), days=new Date(y,m+1,0,12).getDate();
+  const prevDays=new Date(y,m,0,12).getDate();
+  let cells='';
+  for(let i=0;i<42;i++){
+    let cy=y,cm=m,day=i-startDay+1,muted=false;
+    if(day<1){cm=m-1;if(cm<0){cm=11;cy--;}day=prevDays+day;muted=true;}
+    else if(day>days){day-=days;cm=m+1;if(cm>11){cm=0;cy++;}muted=true;}
+    const key=isoDate(cy,cm,day);
+    const evs=programEvents.filter(e=>e.date===key);
+    const isToday=cy===today.getFullYear()&&cm===today.getMonth()&&day===today.getDate();
+    cells+=`<div class="cal-day${muted?' muted':''}${isToday?' today':''}"><div class="cal-date">${day}</div>${evs.map(e=>`<div class="cal-event ${e.kind}">${e.title}<span class="cal-event-time">${e.time} · ${e.location}</span></div>`).join('')}</div>`;
+  }
+  grid.innerHTML=cells;
+}
+function renderList(){
+  const now=new Date();now.setHours(0,0,0,0);
+  const future=programEvents.filter(e=>dLocal(e.date)>=now);
+  listView.innerHTML=future.length?future.map(e=>{
+    const p=shortDateParts(e.date);
+    return `<div class="cal-list-row"><div class="cal-list-date"><strong>${p.mon} ${p.day}</strong><span>${p.dow}</span></div><div class="cal-list-info"><small>${e.kind==='game'?'GAME':'OPEN GYM'}</small><h3>${e.title}</h3><p>${e.location}</p></div><div class="cal-list-time">${e.time}</div></div>`;
+  }).join(''):'<div class="cal-empty">No upcoming events are posted yet.</div>';
+}
 function setCalendarView(view){
-  const list=view==='list';
-  if(monthFrame) monthFrame.style.display=list?'none':'block';
-  if(agendaFrame) agendaFrame.style.display=list?'block':'none';
+  const isList=view==='list';
+  monthView.style.display=isList?'none':'block';
+  listView.style.display=isList?'block':'none';
+  monthLabel.parentElement.style.visibility=isList?'hidden':'visible';
   viewButtons.forEach(b=>b.classList.toggle('active',b.dataset.calendarView===view));
 }
+document.getElementById('calPrev').addEventListener('click',()=>{calendarCursor=new Date(calendarCursor.getFullYear(),calendarCursor.getMonth()-1,1,12);renderMonth();});
+document.getElementById('calNext').addEventListener('click',()=>{calendarCursor=new Date(calendarCursor.getFullYear(),calendarCursor.getMonth()+1,1,12);renderMonth();});
 viewButtons.forEach(b=>b.addEventListener('click',()=>setCalendarView(b.dataset.calendarView)));
+renderMonth();renderList();
 setCalendarView(window.matchMedia('(max-width: 620px)').matches?'list':'month');
 document.querySelectorAll('.copy-calendar-link').forEach(btn=>btn.addEventListener('click',async()=>{const url=btn.dataset.calendarUrl;const status=document.querySelector('.copy-status');try{await navigator.clipboard.writeText(url);if(status)status.textContent='Calendar link copied — paste it into your calendar app.';}catch(e){const ta=document.createElement('textarea');ta.value=url;ta.setAttribute('readonly','');ta.style.position='absolute';ta.style.left='-9999px';document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();if(status)status.textContent='Calendar link copied — paste it into your calendar app.';}}));
 const menu=document.querySelector('.menu'), nav=document.querySelector('.nav');
