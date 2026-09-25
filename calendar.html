@@ -60,7 +60,7 @@ a{color:inherit}
 .steps p{color:#aaa;font-size:12px;line-height:1.6;margin:0 0 12px}
 .copy{min-height:42px;border:0;background:var(--gold);color:#090909;padding:0 14px;font-size:9px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
 .status{min-height:18px;color:var(--gold);font-size:11px;font-weight:800;margin:10px 0 0}
-.note{max-width:1280px;margin:0 auto;padding:0 22px 30px;color:#777;font-size:11px;line-height:1.5}
+.site-note{margin:20px 0 0;background:#0b0b0b;color:#999;padding:18px 20px;font-size:12px;line-height:1.55}.note{max-width:1280px;margin:0 auto;padding:0 22px 30px;color:#777;font-size:11px;line-height:1.5}
 @media(max-width:720px){
 .topbar-inner{align-items:flex-start}.brand strong{font-size:23px}.back{padding:0 10px}
 .hero{padding-top:30px;align-items:flex-start;flex-direction:column}.hero p{font-size:13px}
@@ -77,11 +77,7 @@ a{color:inherit}
 <main class="shell">
 <div class="controls"><div class="navmonth"><button class="iconbtn" id="prev" type="button" aria-label="Previous month">←</button><strong id="label"></strong><button class="iconbtn" id="next" type="button" aria-label="Next month">→</button></div><div class="views"><button class="viewbtn active" data-view="month" type="button">Month</button><button class="viewbtn" data-view="list" type="button">List</button></div></div>
 <div class="calendar"><div class="month" id="monthView"><div class="month-inner"><div class="weekdays"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div class="grid" id="grid"></div></div></div><div class="list" id="listView"></div></div>
-<section class="subscribe"><h2>ADD IT TO YOUR PHONE.</h2><p>The website calendar above works without any account. Subscribing is optional if you want Cascade events inside your own calendar app.</p>
-<details><summary>Google Calendar</summary><div class="steps"><p>Google requires adding a calendar by URL from a computer browser. In Google Calendar, next to <strong>Other calendars</strong>, choose + → <strong>From URL</strong>, paste the Cascade calendar link, then add it.</p><button class="copy" data-copy type="button">Copy Cascade Calendar Link</button></div></details>
-<details><summary>iPhone / Apple Calendar</summary><div class="steps"><p>In the Calendar app, choose <strong>Calendars → Add Calendar → Add Subscription Calendar</strong>, then paste the Cascade calendar link and subscribe.</p><button class="copy" data-copy type="button">Copy Cascade Calendar Link</button></div></details>
-<p class="status" id="status" aria-live="polite"></p>
-</section>
+<p class="site-note">This calendar is designed to be viewed directly on the Cascade Basketball website so it works consistently on phones, tablets and computers without signing into a calendar service.</p>
 </main>
 <p class="note">Game dates and times can change. The official OSAA schedule remains the final published game source.</p>
 <script>
@@ -127,8 +123,6 @@ document.getElementById('prev').addEventListener('click',()=>{cursor=new Date(cu
 document.getElementById('next').addEventListener('click',()=>{cursor=new Date(cursor.getFullYear(),cursor.getMonth()+1,1,12);renderMonth()});
 document.querySelectorAll('.viewbtn').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));
 renderMonth();renderList();setView(window.matchMedia('(max-width:720px)').matches?'list':'month');
-const feed='https://calendar.google.com/calendar/ical/c_5f2f898e5112aba62b3c823ee15c2d3c381fed0e2a47196908dc0459427654c9%40group.calendar.google.com/public/basic.ics';
-document.querySelectorAll('[data-copy]').forEach(btn=>btn.addEventListener('click',async()=>{const status=document.getElementById('status');try{await navigator.clipboard.writeText(feed);status.textContent='Calendar link copied.'}catch(e){const ta=document.createElement('textarea');ta.value=feed;ta.style.position='absolute';ta.style.left='-9999px';document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();status.textContent='Calendar link copied.'}}));
 </script>
 </body>
 </html>
