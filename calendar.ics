@@ -1,0 +1,362 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cascade Cougars Basketball//Program Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cascade Cougars Basketball
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:open-gym-20260930@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261001T020000Z
+DTEND:20261001T033000Z
+SUMMARY:Cascade Basketball Open Gym
+LOCATION:Cougar Den
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:open-gym-20261005@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261006T020000Z
+DTEND:20261006T033000Z
+SUMMARY:Cascade Basketball Open Gym
+LOCATION:Old Gym
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:open-gym-20261007@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261008T020000Z
+DTEND:20261008T033000Z
+SUMMARY:Cascade Basketball Open Gym
+LOCATION:Old Gym
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:open-gym-20261012@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261013T020000Z
+DTEND:20261013T033000Z
+SUMMARY:Cascade Basketball Open Gym
+LOCATION:Cougar Den
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:open-gym-20261014@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261015T020000Z
+DTEND:20261015T033000Z
+SUMMARY:Cascade Basketball Open Gym
+LOCATION:Cougar Den
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:open-gym-20261019@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261020T020000Z
+DTEND:20261020T033000Z
+SUMMARY:Cascade Basketball Open Gym
+LOCATION:Cougar Den
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:open-gym-20261021@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261022T020000Z
+DTEND:20261022T033000Z
+SUMMARY:Cascade Basketball Open Gym
+LOCATION:Cougar Den
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:open-gym-20261026@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261027T020000Z
+DTEND:20261027T033000Z
+SUMMARY:Cascade Basketball Open Gym
+LOCATION:Cougar Den
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:open-gym-20261028@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261029T020000Z
+DTEND:20261029T033000Z
+SUMMARY:Cascade Basketball Open Gym
+LOCATION:Cougar Den
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20261204-north-marion@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261205T030000Z
+DTEND:20261205T050000Z
+SUMMARY:Cascade Varsity @ North Marion
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20261208-estacada@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Cascade Varsity @ Estacada — Time TBD
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20261208-marist@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261209T030000Z
+DTEND:20261209T050000Z
+SUMMARY:Cascade Varsity vs. Marist Catholic
+LOCATION:Home
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20261211-molalla@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261212T030000Z
+DTEND:20261212T050000Z
+SUMMARY:Cascade Varsity @ Molalla
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20261212-mountain-view@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Cascade Varsity vs. Mountain View — Time TBD
+LOCATION:Home
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20261215-dallas@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20261216T030000Z
+DTEND:20261216T050000Z
+SUMMARY:Cascade Varsity vs. Dallas
+LOCATION:Home
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20261218-lebanon@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Cascade Varsity @ Lebanon — Time TBD
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20261222-tillamook@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Cascade Varsity @ Tillamook — Time TBD
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270105-cottage-grove@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270106T030000Z
+DTEND:20270106T050000Z
+SUMMARY:Cascade Varsity vs. Cottage Grove
+LOCATION:Home
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270107-banks@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270108T030000Z
+DTEND:20270108T050000Z
+SUMMARY:Cascade Varsity @ Banks
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270115-seaside@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Cascade Varsity @ Seaside — Time TBD
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270119-springfield@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270120T030000Z
+DTEND:20270120T050000Z
+SUMMARY:Cascade Varsity vs. Springfield
+LOCATION:Home
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270122-north-bend@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270123T030000Z
+DTEND:20270123T050000Z
+SUMMARY:Cascade Varsity vs. North Bend
+LOCATION:Home
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270126-central@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Cascade Varsity @ Central — Time TBD
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270129-newport@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270130T030000Z
+DTEND:20270130T050000Z
+SUMMARY:Cascade Varsity vs. Newport
+LOCATION:Home
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270202-philomath@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270203T030000Z
+DTEND:20270203T050000Z
+SUMMARY:Cascade Varsity @ Philomath
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270205-stayton@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270206T030000Z
+DTEND:20270206T050000Z
+SUMMARY:Cascade Varsity vs. Stayton
+LOCATION:Home
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270209-taft@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270210T030000Z
+DTEND:20270210T050000Z
+SUMMARY:Cascade Varsity vs. Taft
+LOCATION:Home
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270212-central@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270213T013000Z
+DTEND:20270213T033000Z
+SUMMARY:Cascade Varsity vs. Central
+LOCATION:Home
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270216-newport@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270217T013000Z
+DTEND:20270217T033000Z
+SUMMARY:Cascade Varsity @ Newport
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270219-philomath@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270220T013000Z
+DTEND:20270220T033000Z
+SUMMARY:Cascade Varsity vs. Philomath
+LOCATION:Home
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270223-stayton@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270224T013000Z
+DTEND:20270224T033000Z
+SUMMARY:Cascade Varsity @ Stayton
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:varsity-20270226-taft@cascadecougarsbasketball.com
+DTSTAMP:20260925T043000Z
+DTSTART:20270227T013000Z
+DTEND:20270227T033000Z
+SUMMARY:Cascade Varsity @ Taft
+LOCATION:Away
+DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
