@@ -1,361 +1,1635 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Cascade Cougars Basketball//Program Calendar//EN
+PRODID:-//Cascade Boys Basketball//Program Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Cascade Cougars Basketball
+X-WR-CALNAME:Cascade Boys Basketball
 X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:open-gym-20260930@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:vc7ddhes7s9jd1hb1agrmt02uo_20261001T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261001T020000Z
 DTEND:20261001T033000Z
 SUMMARY:Cascade Basketball Open Gym
 LOCATION:Cougar Den
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:open-gym-20261005@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:vc7ddhes7s9jd1hb1agrmt02uo_20261006T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261006T020000Z
 DTEND:20261006T033000Z
 SUMMARY:Cascade Basketball Open Gym
 LOCATION:Old Gym
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:open-gym-20261007@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:vc7ddhes7s9jd1hb1agrmt02uo_20261008T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261008T020000Z
 DTEND:20261008T033000Z
 SUMMARY:Cascade Basketball Open Gym
 LOCATION:Old Gym
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:open-gym-20261012@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:vc7ddhes7s9jd1hb1agrmt02uo_20261013T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261013T020000Z
 DTEND:20261013T033000Z
 SUMMARY:Cascade Basketball Open Gym
 LOCATION:Cougar Den
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:open-gym-20261014@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:vc7ddhes7s9jd1hb1agrmt02uo_20261015T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261015T020000Z
 DTEND:20261015T033000Z
 SUMMARY:Cascade Basketball Open Gym
 LOCATION:Cougar Den
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:open-gym-20261019@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:vc7ddhes7s9jd1hb1agrmt02uo_20261020T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261020T020000Z
 DTEND:20261020T033000Z
 SUMMARY:Cascade Basketball Open Gym
 LOCATION:Cougar Den
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:open-gym-20261021@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:vc7ddhes7s9jd1hb1agrmt02uo_20261022T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261022T020000Z
 DTEND:20261022T033000Z
 SUMMARY:Cascade Basketball Open Gym
 LOCATION:Cougar Den
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:open-gym-20261026@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:vc7ddhes7s9jd1hb1agrmt02uo_20261027T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261027T020000Z
 DTEND:20261027T033000Z
 SUMMARY:Cascade Basketball Open Gym
 LOCATION:Cougar Den
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:open-gym-20261028@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:vc7ddhes7s9jd1hb1agrmt02uo_20261029T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261029T020000Z
 DTEND:20261029T033000Z
 SUMMARY:Cascade Basketball Open Gym
 LOCATION:Cougar Den
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20261204-north-marion@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:fmu11abmi3l404640g0ab0ip9c@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261116T233000Z
+DTEND:20261117T013000Z
+SUMMARY:Boys Tryouts — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kllchc3aqtv4all9mtpaq4lssc@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261117T233000Z
+DTEND:20261118T013000Z
+SUMMARY:Boys Tryouts — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:08vqqdf3f38ab2320u8btirl20@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261118T233000Z
+DTEND:20261119T013000Z
+SUMMARY:Boys Tryouts — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lvevb98l5ea1qco9r0dl74a3ls@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261119T233000Z
+DTEND:20261120T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:0cbij77o8vcave2p8rfk4vnu6k@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261120T020000Z
+DTEND:20261120T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:vqjvjj7lt5e7b09a7kolba4kto@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261120T233000Z
+DTEND:20261121T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hmdgsk776l9i5rr9jnmokbsohc@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261121T020000Z
+DTEND:20261121T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:a1kisig0hge5j7kcpjpdrt1alg@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261121T180000Z
+DTEND:20261121T200000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:nqer16dim50u45s04dsuf5snq0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261121T180000Z
+DTEND:20261121T200000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u3djtp90a80nkldgi3mvnf8h78@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261123T233000Z
+DTEND:20261124T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:k5plc81mcl0t62a338golk1oh8@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261124T020000Z
+DTEND:20261124T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lqu6acf46usneau9l61vjnd1nk@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261124T233000Z
+DTEND:20261125T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tk1fr26r930t9ofbltqsspu9mg@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261125T020000Z
+DTEND:20261125T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:fstddf43vubidtlafi3gmjpvfg@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261125T193000Z
+DTEND:20261125T213000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:r1v2819ph5rmvmrcvluf63op9g@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261125T193000Z
+DTEND:20261125T213000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:67dud0viufjf1ur0qvn10djnsg@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261128T020000Z
+DTEND:20261128T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hdofsi0f0670tmh0v9ouh0hacs@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261128T020000Z
+DTEND:20261128T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:1jsmlc4od8g6p1k1ktocitqeb0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261128T163000Z
+DTEND:20261128T180000Z
+SUMMARY:TENTATIVE — JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:j1e7mp6cf27vuu920n20m4sg20@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261128T163000Z
+DTEND:20261128T180000Z
+SUMMARY:TENTATIVE — JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:k4u9n9ghkdbkr69hpsd37f320c@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261130T233000Z
+DTEND:20261201T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mjh6ln9tmdlpjinnauu7bacip0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261130T233000Z
+DTEND:20261201T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hsq1gsm51lioehs5sut7otnjrs_20261201T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261201T233000Z
+DTEND:20261202T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:3nasacrpnjfd4745gbfjhkaml0_20261202T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261202T020000Z
+DTEND:20261202T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hsq1gsm51lioehs5sut7otnjrs_20261202T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261202T233000Z
+DTEND:20261203T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:3nasacrpnjfd4745gbfjhkaml0_20261203T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261203T020000Z
+DTEND:20261203T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hsq1gsm51lioehs5sut7otnjrs_20261203T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261203T233000Z
+DTEND:20261204T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:3nasacrpnjfd4745gbfjhkaml0_20261204T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261204T020000Z
+DTEND:20261204T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:g680eh5djao36fmu28c5i5du68@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261205T030000Z
 DTEND:20261205T050000Z
-SUMMARY:Cascade Varsity @ North Marion
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ North Marion
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20261208-estacada@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:59vmljcuuhder2p9oofi1q0k38@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261207T233000Z
+DTEND:20261208T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:amdno6c8gaa9dqovf54cvuvuf0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261208T020000Z
+DTEND:20261208T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:1p8d3ms8jl4umjf0uknhlsgcoq@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-SUMMARY:Cascade Varsity @ Estacada — Time TBD
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ Estacada (time TBD)
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20261208-marist@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:g85e3v81i12a923oli1m96pe1k@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261209T030000Z
 DTEND:20261209T050000Z
-SUMMARY:Cascade Varsity vs. Marist Catholic
-LOCATION:Home
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball vs. Marist Catholic
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20261211-molalla@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:j1p3cl5amparrrdl7c4dgbhvvc_20261209T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261209T233000Z
+DTEND:20261210T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sc9p981194ap1dfiofmddch2c0_20261210T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261210T020000Z
+DTEND:20261210T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:j1p3cl5amparrrdl7c4dgbhvvc_20261210T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261210T233000Z
+DTEND:20261211T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sc9p981194ap1dfiofmddch2c0_20261211T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261211T020000Z
+DTEND:20261211T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:j53p5vgoqa2pr0s7kt1h16kdb4@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261212T030000Z
 DTEND:20261212T050000Z
-SUMMARY:Cascade Varsity @ Molalla
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ Molalla
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20261212-mountain-view@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:66fo0nl2nu942e93298cdoneki@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:Cascade Varsity vs. Mountain View — Time TBD
-LOCATION:Home
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball vs. Mountain View (time TBD)
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20261215-dallas@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:9nkm5tnrl8o4vhgb2lj9s59nh0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261214T233000Z
+DTEND:20261215T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u18v18i96kmmjhmhktvh8uj48g@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261215T020000Z
+DTEND:20261215T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:j40gglon2rslkdne8skdfr48gk@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20261216T030000Z
 DTEND:20261216T050000Z
-SUMMARY:Cascade Varsity vs. Dallas
-LOCATION:Home
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball vs. Dallas
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20261218-lebanon@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:8bkl64uvn1lgs7kc8agrmerjek@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261216T233000Z
+DTEND:20261217T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:qrp5lctf85qufj82krqhp43a6g@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261216T233000Z
+DTEND:20261217T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hadqkfegk0sm8ufqnetpv8and0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261217T233000Z
+DTEND:20261218T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bhcgddt2jmtrrduu885t2g0gkk@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261218T020000Z
+DTEND:20261218T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:3115aid9g4ejetjpjo81k7forv@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-SUMMARY:Cascade Varsity @ Lebanon — Time TBD
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ Lebanon (time TBD)
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20261222-tillamook@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:7qrikefi8drsptu0uo4i5jch74@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261219T180000Z
+DTEND:20261219T200000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dmg1oa1emeemg1t5fs0bggt4pk@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261219T180000Z
+DTEND:20261219T200000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:8us234vq48oba41boahdlnofqc@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261221T193000Z
+DTEND:20261221T213000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ngjd71r4751mlimetlcpt8plf4@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261221T193000Z
+DTEND:20261221T213000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:1kp3mnbbruocc069cocquileba@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
-SUMMARY:Cascade Varsity @ Tillamook — Time TBD
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ Tillamook (time TBD)
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270105-cottage-grove@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:7e0fds0564ss3nhhh20s3mkang@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261228
+SUMMARY:Christmas Break — No Practice
+DESCRIPTION:No boys basketball practice Dec. 23–27. Return Dec. 28.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:09dgnkbtnv32i2r94vlc1jv9ro_20261228T170000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261228T170000Z
+DTEND:20261228T193000Z
+SUMMARY:TENTATIVE — JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pdf1pecad1d2dt13kkj4oo3vfc_20261228T170000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261228T170000Z
+DTEND:20261228T193000Z
+SUMMARY:TENTATIVE — JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:09dgnkbtnv32i2r94vlc1jv9ro_20261229T170000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261229T170000Z
+DTEND:20261229T193000Z
+SUMMARY:TENTATIVE — JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pdf1pecad1d2dt13kkj4oo3vfc_20261229T170000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261229T170000Z
+DTEND:20261229T193000Z
+SUMMARY:TENTATIVE — JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:09dgnkbtnv32i2r94vlc1jv9ro_20261230T170000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261230T170000Z
+DTEND:20261230T193000Z
+SUMMARY:TENTATIVE — JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pdf1pecad1d2dt13kkj4oo3vfc_20261230T170000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261230T170000Z
+DTEND:20261230T193000Z
+SUMMARY:TENTATIVE — JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:09dgnkbtnv32i2r94vlc1jv9ro_20261231T170000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261231T170000Z
+DTEND:20261231T193000Z
+SUMMARY:TENTATIVE — JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pdf1pecad1d2dt13kkj4oo3vfc_20261231T170000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20261231T170000Z
+DTEND:20261231T193000Z
+SUMMARY:TENTATIVE — JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:51pdf4ncir6sla3nhkaq405688@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270102T163000Z
+DTEND:20270102T180000Z
+SUMMARY:TENTATIVE — JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:v3k5i6nn2jpbt05u1l2aoq96o4@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270102T163000Z
+DTEND:20270102T180000Z
+SUMMARY:TENTATIVE — JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:psmm6ivuj37651h06lbcluh3ig@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270104T233000Z
+DTEND:20270105T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:nc0dlk2ltbmmn7228lla8ksnlg@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270105T020000Z
+DTEND:20270105T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:76n6p141d38d1komnamnmv3kfs@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270106T030000Z
 DTEND:20270106T050000Z
-SUMMARY:Cascade Varsity vs. Cottage Grove
-LOCATION:Home
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball vs. Cottage Grove
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270107-banks@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:65reqd9e1e4jd9algqis3l9iq4@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270106T233000Z
+DTEND:20270107T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:od52bnlejiq0flnt4vj34stho0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270107T020000Z
+DTEND:20270107T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:6udfm3gj8iveb4047ud02vq17c@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270108T030000Z
 DTEND:20270108T050000Z
-SUMMARY:Cascade Varsity @ Banks
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ Banks
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270115-seaside@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:q6gk68ah2rh1l09kobailek1ro@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270108T233000Z
+DTEND:20270109T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:e6vlfahfe3jfveu26jb62lr5e8@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270109T020000Z
+DTEND:20270109T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:6mq1jr2h3q016nj52fu022gsbc@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270109T180000Z
+DTEND:20270109T200000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ja97nptqrspqesn26aushcice0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270109T180000Z
+DTEND:20270109T200000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lkcuer0likckop33sjate1t3a4_20270111T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270111T233000Z
+DTEND:20270112T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mo7ihl24qbldk70p3hlng9lm1g_20270112T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270112T020000Z
+DTEND:20270112T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lkcuer0likckop33sjate1t3a4_20270112T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270112T233000Z
+DTEND:20270113T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mo7ihl24qbldk70p3hlng9lm1g_20270113T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270113T020000Z
+DTEND:20270113T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lkcuer0likckop33sjate1t3a4_20270113T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270113T233000Z
+DTEND:20270114T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mo7ihl24qbldk70p3hlng9lm1g_20270114T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270114T020000Z
+DTEND:20270114T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lkcuer0likckop33sjate1t3a4_20270114T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270114T233000Z
+DTEND:20270115T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mo7ihl24qbldk70p3hlng9lm1g_20270115T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270115T020000Z
+DTEND:20270115T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:0n6gbldv8ogalhd5jft3keka83@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
-SUMMARY:Cascade Varsity @ Seaside — Time TBD
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ Seaside (time TBD)
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270119-springfield@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:dkdor2sdrrg60l8tvf2e773jeo@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270116T180000Z
+DTEND:20270116T200000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:qkr2ng0i97dnqhbkah8afg26v0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270116T180000Z
+DTEND:20270116T200000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:5m78jsuil41769k9e2mv4pnjss@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270118T233000Z
+DTEND:20270119T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:g7ppjo0e0g9kqr59ii48n0d128@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270118T233000Z
+DTEND:20270119T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:8lc35ij6ldjivshf4lur4fl9ns@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270120T030000Z
 DTEND:20270120T050000Z
-SUMMARY:Cascade Varsity vs. Springfield
-LOCATION:Home
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball vs. Springfield
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270122-north-bend@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:bs1ular077h58kcp331oauel8k_20270120T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270120T233000Z
+DTEND:20270121T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:gbg4gtq18k17ddb3ho4aq1tg28_20270121T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270121T020000Z
+DTEND:20270121T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bs1ular077h58kcp331oauel8k_20270121T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270121T233000Z
+DTEND:20270122T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:gbg4gtq18k17ddb3ho4aq1tg28_20270122T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270122T020000Z
+DTEND:20270122T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mh8vp9iakdoth89hbec0kkhvhs@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270123T030000Z
 DTEND:20270123T050000Z
-SUMMARY:Cascade Varsity vs. North Bend
-LOCATION:Home
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball vs. North Bend
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270126-central@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:al9f59dpssv87i8527ms0moagg@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270123T180000Z
+DTEND:20270123T200000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:nn1j7socaruoh8np6d65auauts@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270123T180000Z
+DTEND:20270123T200000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:clcnp4uorq2b5kkb6mge864ke4@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270125T233000Z
+DTEND:20270126T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hjomk65tolga6ol5cpofg1fpck@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270125T233000Z
+DTEND:20270126T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:5779nqh7bk5o567c3oq6l6p799@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
-SUMMARY:Cascade Varsity @ Central — Time TBD
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ Central (time TBD)
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270129-newport@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:idoc8ct6uruuqcjmsdfbjb67oc_20270127T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270127T233000Z
+DTEND:20270128T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dlfk6o9n8ehmmahl754qvg533o_20270128T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270128T020000Z
+DTEND:20270128T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:idoc8ct6uruuqcjmsdfbjb67oc_20270128T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270128T233000Z
+DTEND:20270129T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dlfk6o9n8ehmmahl754qvg533o_20270129T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270129T020000Z
+DTEND:20270129T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lbmcnaq6o7rherah3tjp4b3pto@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270130T030000Z
 DTEND:20270130T050000Z
-SUMMARY:Cascade Varsity vs. Newport
-LOCATION:Home
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball vs. Newport
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270202-philomath@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:emdi75v23a9fgb1h01ml384edg@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270201T233000Z
+DTEND:20270202T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:i2303f4r4ut87lsjkkkclulr28@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270202T020000Z
+DTEND:20270202T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:p7pm1tmvicf7ueod7r58soru8o@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270203T030000Z
 DTEND:20270203T050000Z
-SUMMARY:Cascade Varsity @ Philomath
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ Philomath
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270205-stayton@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:1tdoia1f4o8vobmnq2mhebk35k_20270203T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270203T233000Z
+DTEND:20270204T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:1fecb6h37q8e1ur8s6ahcr0ph4_20270204T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270204T020000Z
+DTEND:20270204T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:1tdoia1f4o8vobmnq2mhebk35k_20270204T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270204T233000Z
+DTEND:20270205T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:1fecb6h37q8e1ur8s6ahcr0ph4_20270205T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270205T020000Z
+DTEND:20270205T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:jq51g6tjr14489l35koikvjja0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270206T030000Z
 DTEND:20270206T050000Z
-SUMMARY:Cascade Varsity vs. Stayton
-LOCATION:Home
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball vs. Stayton
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270209-taft@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:fqeqgl1e6gf62rsmtpb9g9df6c@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270206T163000Z
+DTEND:20270206T180000Z
+SUMMARY:TENTATIVE — JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sliok9ook5834pq40462t2r6bk@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270206T163000Z
+DTEND:20270206T180000Z
+SUMMARY:TENTATIVE — JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bn7ni5t8a6t9pj4crdo0p98bi4@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270208T233000Z
+DTEND:20270209T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:j3gnt5pulcd6mhuga76pgf5pp8@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270209T020000Z
+DTEND:20270209T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:qbs633mba99tibs2699c8kmtu4@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270210T030000Z
 DTEND:20270210T050000Z
-SUMMARY:Cascade Varsity vs. Taft
-LOCATION:Home
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball vs. Taft
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270212-central@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:s6gt03vgm765or48tu9fjlt7ko_20270210T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270210T233000Z
+DTEND:20270211T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:5lcl0pt0fd2aio4kbr85lrdrk8_20270211T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270211T020000Z
+DTEND:20270211T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:s6gt03vgm765or48tu9fjlt7ko_20270211T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270211T233000Z
+DTEND:20270212T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:5lcl0pt0fd2aio4kbr85lrdrk8_20270212T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270212T020000Z
+DTEND:20270212T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:5gs2apuq38j9t9jg80n74h5rog@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270213T013000Z
 DTEND:20270213T033000Z
-SUMMARY:Cascade Varsity vs. Central
-LOCATION:Home
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball vs. Central
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270216-newport@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:dm74g30ui52chg7vbkb3diu438@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270213T180000Z
+DTEND:20270213T200000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:q57ueauceati9qrnn1bbdqn5pk@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270213T180000Z
+DTEND:20270213T200000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hutmsqj7mr1vfmh2jr5sg57v48@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270215T233000Z
+DTEND:20270216T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:5e7k7bpk1m8mp6r89or5dmja00@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270216T020000Z
+DTEND:20270216T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:7970i7oefdkqi6gi3o28pkeem4@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270217T013000Z
 DTEND:20270217T033000Z
-SUMMARY:Cascade Varsity @ Newport
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ Newport
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270219-philomath@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:cq3d5l5da6en7vnqkb767ael28_20270217T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270217T233000Z
+DTEND:20270218T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:fvqc63m1d71nvihg5p56nrmb1o_20270218T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270218T020000Z
+DTEND:20270218T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cq3d5l5da6en7vnqkb767ael28_20270218T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270218T233000Z
+DTEND:20270219T013000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:fvqc63m1d71nvihg5p56nrmb1o_20270219T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270219T020000Z
+DTEND:20270219T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:nk93jo4vdhtgst01m6s2bmuji0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270220T013000Z
 DTEND:20270220T033000Z
-SUMMARY:Cascade Varsity vs. Philomath
-LOCATION:Home
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball vs. Philomath
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270223-stayton@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:2tc6bv5tiuaise01tah5h1kn8o@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270220T163000Z
+DTEND:20270220T180000Z
+SUMMARY:TENTATIVE — JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:7q6nctekqjmcid234j8eevejho@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270220T163000Z
+DTEND:20270220T180000Z
+SUMMARY:TENTATIVE — JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:taba940mkblvhnja3gj3el7lk0@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270222T233000Z
+DTEND:20270223T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:9775m5c1l49abf7ano9br6h1kk@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270223T020000Z
+DTEND:20270223T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lsheov66jtcs7o6b4o9jptpbso@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270224T013000Z
 DTEND:20270224T033000Z
-SUMMARY:Cascade Varsity @ Stayton
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ Stayton
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:varsity-20270226-taft@cascadecougarsbasketball.com
-DTSTAMP:20260925T043000Z
+UID:1i2jlaklfifvhhrj7is8qg2f8g_20270224T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270224T233000Z
+DTEND:20270225T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bpm9u3p7qlsvqlh9gaj2gvcalc_20270225T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270225T020000Z
+DTEND:20270225T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:1i2jlaklfifvhhrj7is8qg2f8g_20270225T233000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270225T233000Z
+DTEND:20270226T013000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bpm9u3p7qlsvqlh9gaj2gvcalc_20270226T020000Z@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270226T020000Z
+DTEND:20270226T040000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:1ks0a1rqjss1ldnogk1rbhgl6o@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
 DTSTART:20270227T013000Z
 DTEND:20270227T033000Z
-SUMMARY:Cascade Varsity @ Taft
-LOCATION:Away
-DESCRIPTION:Cascade Cougars Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+SUMMARY:Cascade boys basketball @ Taft
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ksmbq3f738fh7tjf4j7m1slf8c@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270227T180000Z
+DTEND:20270227T200000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ljnr8mp8bd5si5r77sv69tn46s@cascadecougarsbasketball.com
+DTSTAMP:20261005T034500Z
+DTSTART:20270227T180000Z
+DTEND:20270227T200000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
