@@ -3,7 +3,7 @@ name: Sync Google Calendar
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "7 * * * *"
   workflow_dispatch:
   push:
     paths:
@@ -15,7 +15,7 @@ permissions:
 
 concurrency:
   group: sync-google-calendar
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sync:
