@@ -116,7 +116,8 @@ with open("calendar-data.js","w",encoding="utf-8") as f:
     json.dump(web,f,ensure_ascii=False,separators=(",",":"))
     f.write(";\n")
 
-stamp=datetime.now(ZoneInfo("UTC")).strftime("%Y%m%dT%H%M%SZ")
+ics_events.sort(key=lambda x:(x[1],x[3],x[4],x[2]))
+stamp="20261005T000000Z"
 lines=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Cascade Boys Basketball//Program Calendar//EN","CALSCALE:GREGORIAN","METHOD:PUBLISH","X-WR-CALNAME:Cascade Boys Basketball","X-WR-TIMEZONE:America/Los_Angeles","REFRESH-INTERVAL;VALUE=DURATION:PT6H","X-PUBLISHED-TTL:PT6H"]
 for typ,ds,de,summary,location,k in ics_events:
     uid=hashlib.sha1(f"{ds}|{summary}|{location}".encode()).hexdigest()[:20]+"@cascadecougarsbasketball.com"
