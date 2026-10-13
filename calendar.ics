@@ -425,16 +425,6 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:7f04aaa7a6eab95622f8@cascadecougarsbasketball.com
-DTSTAMP:20261005T000000Z
-DTSTART;VALUE=DATE:20261208
-DTEND;VALUE=DATE:20261209
-SUMMARY:Cascade boys basketball @ Estacada (time TBD)
-DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:6f2c1deccac9713cabf9@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20261208T020000Z
@@ -506,16 +496,6 @@ DTSTART:20261211T020000Z
 DTEND:20261211T040000Z
 SUMMARY:JV/Varsity Practice — Main Gym
 LOCATION:Cascade High School — Main Gym
-DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:5432c8afe21b879cf216@cascadecougarsbasketball.com
-DTSTAMP:20261005T000000Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Cascade boys basketball vs. Mountain View (time TBD)
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -602,16 +582,6 @@ DTSTART:20261217T233000Z
 DTEND:20261218T013000Z
 SUMMARY:JV/Varsity Practice — Main Gym
 LOCATION:Cascade High School — Main Gym
-DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:1f43bc5dc8e6736acc6d@cascadecougarsbasketball.com
-DTSTAMP:20261005T000000Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
-SUMMARY:Cascade boys basketball @ Lebanon (time TBD)
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -1177,16 +1147,6 @@ DTSTART:20270125T233000Z
 DTEND:20270126T013000Z
 SUMMARY:JV2 Practice — Aux Gym
 LOCATION:Cascade High School — Aux Gym
-DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:2111f594e1e9a047cd4a@cascadecougarsbasketball.com
-DTSTAMP:20261005T000000Z
-DTSTART;VALUE=DATE:20270126
-DTEND;VALUE=DATE:20270127
-SUMMARY:Cascade boys basketball @ Central (time TBD)
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
