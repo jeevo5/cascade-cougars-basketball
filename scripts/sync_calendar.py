@@ -119,6 +119,17 @@ for ev in components:
         web.append({"date":s.date().isoformat(),"time":fmt_range(s,e),"title":web_title(summary),"location":web_location(summary,location,k),"kind":k})
         ics_events.append(("time",s.astimezone(ZoneInfo("UTC")).strftime("%Y%m%dT%H%M%SZ"),e.astimezone(ZoneInfo("UTC")).strftime("%Y%m%dT%H%M%SZ"),summary,location,k))
 
+# A varsity game supersedes routine team practices on that calendar date.
+# Apply to both the website display and downloadable Apple calendar.
+game_dates={e["date"] for e in web if e["kind"]=="game"}
+web=[e for e in web if not (e["kind"]=="practice" and e["date"] in game_dates)]
+def ics_local_date(event):
+    typ, ds, de, summary, location, k = event
+    if typ=="date":
+        return datetime.strptime(ds,"%Y%m%d").date().isoformat()
+    return datetime.strptime(ds,"%Y%m%dT%H%M%SZ").replace(tzinfo=ZoneInfo("UTC")).astimezone(TZ).date().isoformat()
+ics_events=[e for e in ics_events if not (e[5]=="practice" and ics_local_date(e) in game_dates)]
+
 web.sort(key=lambda x:(x["date"],x["time"],x["title"]))
 with open("calendar-data.js","w",encoding="utf-8") as f:
     f.write("// Auto-generated from Cascade Boys Basketball Google Calendar.\n")
