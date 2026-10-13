@@ -446,28 +446,6 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:4bbdbc6e9855e13b52da@cascadecougarsbasketball.com
-DTSTAMP:20261005T000000Z
-DTSTART:20261209T233000Z
-DTEND:20261210T013000Z
-SUMMARY:JV2 Practice — Aux Gym
-LOCATION:Cascade High School — Aux Gym
-DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:8662f26c8bdc6b12ba7f@cascadecougarsbasketball.com
-DTSTAMP:20261005T000000Z
-DTSTART:20261210T020000Z
-DTEND:20261210T040000Z
-SUMMARY:JV/Varsity Practice — Main Gym
-LOCATION:Cascade High School — Main Gym
-DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:77e037486c4423481de0@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20261210T030000Z
