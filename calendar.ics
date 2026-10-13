@@ -478,6 +478,17 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:77e037486c4423481de0@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261210T030000Z
+DTEND:20261210T050000Z
+SUMMARY:Cascade boys basketball @ Estacada
+LOCATION:Estacada High School
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:0527e88b66667f8d16e7@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20261210T233000Z
@@ -515,6 +526,17 @@ DTSTAMP:20261005T000000Z
 DTSTART:20261212T030000Z
 DTEND:20261212T050000Z
 SUMMARY:Cascade boys basketball @ Molalla
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:65e1a1a0d32790465676@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261212T213000Z
+DTEND:20261212T233000Z
+SUMMARY:Cascade boys basketball vs. Mountain View
+LOCATION:Cascade High School
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -606,6 +628,17 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:adb27872a987c8b10be8@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261219T030000Z
+DTEND:20261219T050000Z
+SUMMARY:Cascade boys basketball @ Lebanon
+LOCATION:Lebanon High School
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:f42f2b70c788a404b560@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20261219T180000Z
@@ -655,6 +688,17 @@ DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Cascade boys basketball @ Tillamook (time TBD)
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:be8df5cbfcb8e7a9219b@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Cascade boys basketball vs. Bend (time TBD)
+LOCATION:Cascade High School
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -1143,6 +1187,17 @@ DTSTAMP:20261005T000000Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:Cascade boys basketball @ Central (time TBD)
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:89419faf65f9afd003fa@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20270127T030000Z
+DTEND:20270127T050000Z
+SUMMARY:Cascade boys basketball @ Central
+LOCATION:Central High School
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
