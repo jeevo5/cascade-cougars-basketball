@@ -84,6 +84,16 @@ ics_events=[]
 for ev in components:
     summary=clean(ev.get("SUMMARY"))
     if not summary: continue
+    # Ignore four superseded all-day placeholders from the old OSAA import.
+    # Google public ICS can cache deletions after the calendar itself is corrected.
+    obsolete = {
+        ("2026-12-08", "cascade boys basketball @ estacada (time tbd)"),
+        ("2026-12-12", "cascade boys basketball vs. mountain view (time tbd)"),
+        ("2026-12-18", "cascade boys basketball @ lebanon (time tbd)"),
+        ("2027-01-26", "cascade boys basketball @ central (time tbd)"),
+    }
+    if (str(ev.decoded("DTSTART"))[:10], summary.lower()) in obsolete:
+        continue
     dtstart=ev.decoded("DTSTART")
     dtend=ev.decoded("DTEND") if ev.get("DTEND") else None
     location=clean(ev.get("LOCATION"))
