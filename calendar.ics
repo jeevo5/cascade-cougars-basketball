@@ -2104,15 +2104,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gcal-sn1te7v5mpmfp2uqh5n4bfq75o@cascadecougarsbasketball.com
 DTSTAMP:20261106T050000Z
-DTSTART:20270224T013000Z
-DTEND:20270224T033000Z
+DTSTART:20270224T000000Z
+DTEND:20270224T020000Z
 SUMMARY:JV @ Stayton
 LOCATION:Away — Stayton
 DESCRIPTION:JV game against Stayton. OSAA start time 17:30 Pacific on 
  2027-02-23. End time\nis a two-hour calendar estimate. Source: https:
  //www.osaa.org/teams/68636\n\n
 STATUS:CONFIRMED
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:gcal-b0no99nal624mqfps98a48374k@cascadecougarsbasketball.com
