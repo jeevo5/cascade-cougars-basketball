@@ -129,7 +129,7 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:a6d518bb9248b484d326@cascadecougarsbasketball.com
+UID:491ba2ae33e3baefd03e@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20261119T020000Z
 DTEND:20261119T040000Z
@@ -137,16 +137,16 @@ SUMMARY:JV/Varsity Tryouts — Main Gym
 LOCATION:Cascade High School — Main Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
-SEQUENCE:1
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:cascade-jv2-20261118@cascadecougarsbasketball.com
-DTSTAMP:20261107T000000Z
+UID:f238fd5a2545add3cf8b@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
 DTSTART:20261119T020000Z
 DTEND:20261119T040000Z
 SUMMARY:JV2 Tryouts — Middle School Gym
 LOCATION:Cascade Middle School — Gym
-DESCRIPTION:Old gym unavailable November 18. JV2 at Cascade Middle School gym 6–8 PM.
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
