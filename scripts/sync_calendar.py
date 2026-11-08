@@ -27,7 +27,7 @@ def kind(summary):
     if "open gym" in s: return "open-gym"
     if "basketball @" in s or "basketball vs." in s: return "game"
     # JV and JV2 game titles in the master calendar do not include "basketball".
-    if re.match(r"^(?:varsity|jv2|jv)(?: \\(fr\\))? (?:@|vs\\.) ", s): return "game"
+    if re.match(r"^(?:varsity|jv2|jv)(?: \(fr\))? (?:@|vs\.) ", s): return "game"
     return "event"
 
 def web_title(summary):
@@ -47,7 +47,7 @@ def web_title(summary):
 def web_location(summary, location, k):
     if k=="game":
         # Preserve the listed gym/location for JV and JV2 rather than replacing it.
-        if re.match(r"(?i)^(?:JV2|JV)(?: \\(FR\\))? (?:@|vs\\.) ", summary):
+        if re.match(r"(?i)^(?:JV2|JV)(?: \(FR\))? (?:@|vs\.) ", summary):
             return location or ("Away" if " @ " in summary else "Home")
         return "Away" if " @ " in summary else "Home"
     return location.replace("Cascade High School — ","").strip()
