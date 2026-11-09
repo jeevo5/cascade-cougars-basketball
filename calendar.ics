@@ -107,6 +107,26 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:444db5ad13b96048b237@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261110T030000Z
+DTEND:20261110T043000Z
+SUMMARY:Cascade Boys Basketball — Open Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:57cf3fc7d842c257b885@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261112T030000Z
+DTEND:20261112T043000Z
+SUMMARY:Cascade Boys Basketball — Open Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:061471086b6b422d2389@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20261117T020000Z
