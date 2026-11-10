@@ -424,10 +424,32 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:744717348ddd4846e948@cascadecougarsbasketball.com
+UID:5917292077535fe41476@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20261204T020000Z
-DTEND:20261204T040000Z
+DTSTART:20261204T013000Z
+DTEND:20261204T015000Z
+SUMMARY:TENTATIVE — Cascade Boys Basketball Fundraiser Blitz (All 3 Teams)
+LOCATION:Cascade High School
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:2e4fcca103b8456494e1@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261204T015000Z
+DTEND:20261204T022000Z
+SUMMARY:TENTATIVE — Cascade Boys Basketball Program Dinner #1 (BBQ)
+LOCATION:Cascade High School
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:c1e9ae5f19b977e1267c@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261204T023000Z
+DTEND:20261204T043000Z
 SUMMARY:JV2 Practice — Aux Gym
 LOCATION:Cascade High School — Aux Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
@@ -1176,6 +1198,17 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:e43b46eeed9f9bf1c434@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20270114T014500Z
+DTEND:20270114T022000Z
+SUMMARY:TENTATIVE — Cascade Boys Basketball Program Dinner #2
+LOCATION:Cascade High School — dinner location TBD
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:bc4bbe05914f9273d753@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20270114T020000Z
@@ -1749,6 +1782,17 @@ SUMMARY:JV/Varsity Practice — Main Gym
 LOCATION:Cascade High School — Main Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:e3aeebab9eba7d7fefb8@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20270211T014500Z
+DTEND:20270211T022000Z
+SUMMARY:TENTATIVE — Cascade Boys Basketball Program Dinner #3
+LOCATION:Cascade High School — dinner location TBD
+DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
