@@ -500,17 +500,6 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:92c3f19b432318e3141c@cascadecougarsbasketball.com
-DTSTAMP:20261005T000000Z
-DTSTART;VALUE=DATE:20261208
-DTEND;VALUE=DATE:20261209
-SUMMARY:JV2 @ Estacada
-LOCATION:Away — Estacada
-DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:6f2c1deccac9713cabf9@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20261208T020000Z
@@ -1013,12 +1002,12 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:5f3bd14741737e4eca55@cascadecougarsbasketball.com
+UID:437ea7367148908a79a6@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20270106T000000Z
 DTEND:20270106T020000Z
-SUMMARY:JV @ Cottage Grove
-LOCATION:Away — Cottage Grove
+SUMMARY:JV vs. Cottage Grove
+LOCATION:Cascade High School
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -1078,22 +1067,23 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:1fe8d4aa3e481fc67ec9@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20270108T013000Z
+DTEND:20270108T033000Z
+SUMMARY:Cascade boys basketball @ Banks
+LOCATION:Banks High School
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:7be205bc8e8f339295a7@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20270108T013000Z
 DTEND:20270108T033000Z
 SUMMARY:JV2 @ Banks
 LOCATION:Away — Banks
-DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:f6e4c08d4c4952ae1804@cascadecougarsbasketball.com
-DTSTAMP:20261005T000000Z
-DTSTART:20270108T030000Z
-DTEND:20270108T050000Z
-SUMMARY:Cascade boys basketball @ Banks
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -1165,23 +1155,34 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:411cb141c7fa61114e22@cascadecougarsbasketball.com
+UID:ce79b062a67c1080fb97@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20270112T233000Z
-DTEND:20270113T013000Z
-SUMMARY:JV/Varsity Practice — Main Gym
-LOCATION:Cascade High School — Main Gym
+DTSTART:20270113T010000Z
+DTEND:20270113T030000Z
+SUMMARY:JV vs. Westside Christian
+LOCATION:Cascade High School
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:6810a27774d50c9563f5@cascadecougarsbasketball.com
+UID:13f4999e865a7a7b0403@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20270113T020000Z
-DTEND:20270113T040000Z
-SUMMARY:JV2 Practice — Aux Gym
-LOCATION:Cascade High School — Aux Gym
+DTSTART:20270113T010000Z
+DTEND:20270113T030000Z
+SUMMARY:JV2 vs. Westside Christian
+LOCATION:Cascade High School
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:2f486e4cddf6609bec00@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20270113T030000Z
+DTEND:20270113T050000Z
+SUMMARY:Cascade boys basketball vs. Westside Christian
+LOCATION:Cascade High School
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
