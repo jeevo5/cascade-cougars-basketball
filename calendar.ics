@@ -292,10 +292,10 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:4f63422eed4984242b84@cascadecougarsbasketball.com
+UID:7a38c06db135915042c7@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20261126T020000Z
-DTEND:20261126T040000Z
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
 SUMMARY:JV/Varsity Practice — Main Gym
 LOCATION:Cascade High School — Main Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
