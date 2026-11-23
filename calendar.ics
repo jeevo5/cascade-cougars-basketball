@@ -239,8 +239,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:708e9fa7b6f37c4f9477@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20261123T233000Z
-DTEND:20261124T013000Z
+DTSTART:20261124T020000Z
+DTEND:20261124T040000Z
 SUMMARY:JV2 Practice — Aux Gym
 LOCATION:Cascade High School — Aux Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
@@ -261,8 +261,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:e824560044f952dea1c8@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20261124T233000Z
-DTEND:20261125T013000Z
+DTSTART:20261125T020000Z
+DTEND:20261125T040000Z
 SUMMARY:JV2 Practice — Aux Gym
 LOCATION:Cascade High School — Aux Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
@@ -283,8 +283,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:89340bd552e4fd32048d@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20261125T193000Z
-DTEND:20261125T213000Z
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
 SUMMARY:JV2 Practice — Aux Gym
 LOCATION:Cascade High School — Aux Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
@@ -327,8 +327,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:e540e4341750fd34a2d0@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20261128T163000Z
-DTEND:20261128T180000Z
+DTSTART:20261128T200000Z
+DTEND:20261128T220000Z
 SUMMARY:TENTATIVE — JV/Varsity Practice — Main Gym
 LOCATION:Cascade High School — Main Gym
 DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
@@ -338,8 +338,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cdbf56111b3654d34ce9@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20261128T163000Z
-DTEND:20261128T180000Z
+DTSTART:20261128T200000Z
+DTEND:20261128T220000Z
 SUMMARY:TENTATIVE — JV2 Practice — Aux Gym
 LOCATION:Cascade High School — Aux Gym
 DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
