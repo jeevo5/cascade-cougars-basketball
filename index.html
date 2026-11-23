@@ -199,7 +199,7 @@
 
 <section class="priority-home" id="announcements">
 <div class="notice-card">
-<div><p class="eyebrow">PROGRAM ANNOUNCEMENT</p><h2>THANKSGIVING WEEK PRACTICES</h2><p><strong>November 23–28:</strong> Varsity, JV and JV2 practice at the same times this week: <strong>Monday and Tuesday, 6:00–8:00 PM</strong>; <strong>Wednesday, 12:00–2:00 PM</strong>; <strong>Friday, 6:00–8:00 PM</strong>; and <strong>Saturday, 12:00–2:00 PM (tentative)</strong>. No practice Thursday. Varsity/JV are in the Main Gym; JV2 is in the Aux Gym. Check the live calendar for updates.</p></div>
+<div><p class="eyebrow">UPDATED FROM BOYS TEAM CALENDAR</p><h2>THIS WEEK\u2019S PRACTICES</h2><p id="weeklyPracticeIntro">Varsity/JV practice in the Main Gym; JV2 practices in the Aux Gym. The schedule below shows the current week, including tentative slots. For games and other events, check the full calendar.</p></div>
 <div class="notice-pill">Players · Check the calendar</div>
 </div>
 </section>
@@ -217,13 +217,7 @@
 <p class="eyebrow">PROGRAM CALENDAR</p>
 <h2>SEE THE<br>WHOLE<br>MONTH.</h2>
 <p>This calendar is built into the Cascade Basketball website, so families do not need to sign in to Google or allow third-party cookies just to see the schedule.</p>
-<div class="calendar-key">
-<div><span>Monday &amp; Tuesday · All boys teams</span><strong>6:00–8:00 PM</strong></div>
-<div><span>Wednesday · All boys teams</span><strong>12:00–2:00 PM</strong></div>
-<div><span>Friday · All boys teams</span><strong>6:00–8:00 PM</strong></div>
-<div><span>Saturday · Tentative</span><strong>12:00–2:00 PM</strong></div>
-<div><span>Gym locations</span><strong>JV/Varsity: Main · JV2: Aux</strong></div>
-</div>
+<div class="calendar-key" id="weeklyPracticeList"><div><span>Weekly practice times</span><strong>Loading from team calendar…</strong></div></div>
 </div>
 <div>
 <div class="calendar-view-head">
@@ -298,6 +292,37 @@
 <script src="calendar-data.js?v=20261123-week-sync-v2"></script>
 <script>
 const programEvents=window.CASCADE_CALENDAR_EVENTS || [];
+
+function renderWeeklyPracticeSchedule(){
+ const list=document.getElementById('weeklyPracticeList');
+ if(!list) return;
+ const pacificParts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).filter(p=>p.type!=='literal').map(p=>[p.type,p.value]));
+ const todayPT=new Date(Date.UTC(Number(pacificParts.year),Number(pacificParts.month)-1,Number(pacificParts.day),12));
+ const monday=new Date(todayPT);
+ monday.setUTCDate(monday.getUTCDate()-((monday.getUTCDay()+6)%7));
+ const dayLabels=['Mon','Tue','Wed','Thu','Fri','Sat'];
+ list.replaceChildren();
+ for(let i=0;i<6;i++){
+   const date=new Date(monday);
+   date.setUTCDate(monday.getUTCDate()+i);
+   const iso=date.toISOString().slice(0,10);
+   const entries=programEvents.filter(e=>e.date===iso && (e.title.includes('JV/Varsity Practice') || e.title.includes('JV2 Practice')));
+   const varsity=entries.find(e=>e.title.includes('JV/Varsity Practice'));
+   const jv2=entries.find(e=>e.title.includes('JV2 Practice'));
+   const details=[];
+   if(varsity) details.push('Varsity/JV '+varsity.time+(varsity.kind==='tentative'?' (tentative)':''));
+   if(jv2) details.push('JV2 '+jv2.time+(jv2.kind==='tentative'?' (tentative)':''));
+   const line=document.createElement('div');
+   const label=document.createElement('span');
+   const times=document.createElement('strong');
+   label.textContent=dayLabels[i]+' '+(date.getUTCMonth()+1)+'/'+date.getUTCDate();
+   times.textContent=details.length?details.join(' · '):'No practice scheduled';
+   line.append(label,times);
+   list.appendChild(line);
+ }
+}
+renderWeeklyPracticeSchedule();
+
 function dLocal(s){const [y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d,12)}
 function fmt(s){return new Intl.DateTimeFormat('en-US',{weekday:'short',month:'short',day:'numeric'}).format(dLocal(s)).toUpperCase()}
 // All three team schedules come from the same OSAA-verified calendar data.
