@@ -124,7 +124,11 @@ for ev in components:
     else:
         s=as_datetime(dtstart).astimezone(TZ)
         e=as_datetime(dtend).astimezone(TZ) if dtend else s+timedelta(hours=2)
-        web.append({"date":s.date().isoformat(),"time":fmt_range(s,e),"title":web_title(summary),"location":web_location(summary,location,k),"kind":k})
+        display_time=fmt_range(s,e)
+        # The winter parent meeting has a confirmed start but no announced ending time.
+        if "winter sports parent/team meeting" in summary.lower():
+            display_time=fmt_clock(s)+" (end time TBD)"
+        web.append({"date":s.date().isoformat(),"time":display_time,"title":web_title(summary),"location":web_location(summary,location,k),"kind":k})
         ics_events.append(("time",s.astimezone(ZoneInfo("UTC")).strftime("%Y%m%dT%H%M%SZ"),e.astimezone(ZoneInfo("UTC")).strftime("%Y%m%dT%H%M%SZ"),summary,location,k))
 
 # A varsity game supersedes routine team practices on that calendar date.
@@ -158,6 +162,8 @@ for typ,ds,de,summary,location,k in ics_events:
     lines.append("SUMMARY:"+escape_ics(summary))
     if location: lines.append("LOCATION:"+escape_ics(location))
     desc="Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates."
+    if "winter sports parent/team meeting" in summary.lower():
+        desc="Mandatory winter sports parent/team meeting starts at 6:00 PM November 30, 2026. Auditorium or gym location TBA. End time not announced; the 7:00 PM calendar end is only a placeholder."
     if k=="tentative": desc="Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates."
     if k=="break": desc="Boys basketball Christmas break. No practice Dec. 23–27. Return Dec. 28."
     lines+=["DESCRIPTION:"+escape_ics(desc),"STATUS:"+("TENTATIVE" if k=="tentative" else "CONFIRMED"),"SEQUENCE:0","END:VEVENT"]
