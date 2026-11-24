@@ -314,10 +314,10 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:9325dc8a531bcc8eec10@cascadecougarsbasketball.com
+UID:1fc7804ee8b94799d86e@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20261128T020000Z
-DTEND:20261128T040000Z
+DTSTART:20261127T230000Z
+DTEND:20261128T010000Z
 SUMMARY:JV2 Practice — Aux Gym
 LOCATION:Cascade High School — Aux Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
