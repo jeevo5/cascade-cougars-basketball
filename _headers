@@ -1,3 +1,6 @@
 /calendar.ics
   Content-Type: text/calendar; charset=utf-8
   Cache-Control: public, max-age=300
+
+/calendar-data.js
+  Cache-Control: public, max-age=60, must-revalidate
