@@ -96,6 +96,9 @@ for ev in components:
         ("2026-12-12", "cascade boys basketball vs. mountain view (time tbd)"),
         ("2026-12-18", "cascade boys basketball @ lebanon (time tbd)"),
         ("2027-01-26", "cascade boys basketball @ central (time tbd)"),
+        # Keep known duplicate and OSAA-canceled entries out of the public site even if Google ICS caches old data.
+        ("2026-12-08", "jv2 @ estacada"),
+        ("2027-01-22", "jv2 vs. north bend"),
     }
     if (str(ev.decoded("DTSTART"))[:10], summary.lower()) in obsolete:
         continue
