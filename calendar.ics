@@ -237,17 +237,6 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:708e9fa7b6f37c4f9477@cascadecougarsbasketball.com
-DTSTAMP:20261005T000000Z
-DTSTART:20261124T020000Z
-DTEND:20261124T040000Z
-SUMMARY:JV2 Practice — Aux Gym
-LOCATION:Cascade High School — Aux Gym
-DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:8575f89408613b12c2bb@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20261124T020000Z
@@ -259,10 +248,10 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:e824560044f952dea1c8@cascadecougarsbasketball.com
+UID:0d5d9e0439025964113f@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20261125T020000Z
-DTEND:20261125T040000Z
+DTSTART:20261124T020000Z
+DTEND:20261124T040000Z
 SUMMARY:JV2 Practice — Aux Gym
 LOCATION:Cascade High School — Aux Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
@@ -281,10 +270,10 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:89340bd552e4fd32048d@cascadecougarsbasketball.com
+UID:b83d72d7cae94d70faa2@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
-DTSTART:20261125T200000Z
-DTEND:20261125T220000Z
+DTSTART:20261125T020000Z
+DTEND:20261125T040000Z
 SUMMARY:JV2 Practice — Aux Gym
 LOCATION:Cascade High School — Aux Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
@@ -298,6 +287,17 @@ DTSTART:20261125T200000Z
 DTEND:20261125T220000Z
 SUMMARY:JV/Varsity Practice — Main Gym
 LOCATION:Cascade High School — Main Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:7e18ee21f177e3c362fc@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+SUMMARY:JV2 Practice — Aux Gym
+LOCATION:Cascade High School — Aux Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -325,7 +325,7 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:e540e4341750fd34a2d0@cascadecougarsbasketball.com
+UID:2c5d4909cae549586610@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
@@ -336,7 +336,7 @@ STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:cdbf56111b3654d34ce9@cascadecougarsbasketball.com
+UID:ac36271f72c12a354e4b@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
