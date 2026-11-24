@@ -303,23 +303,23 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:a4546d13b8f3ab6737b5@cascadecougarsbasketball.com
-DTSTAMP:20261005T000000Z
-DTSTART:20261128T020000Z
-DTEND:20261128T040000Z
-SUMMARY:JV/Varsity Practice — Main Gym
-LOCATION:Cascade High School — Main Gym
-DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:1fc7804ee8b94799d86e@cascadecougarsbasketball.com
 DTSTAMP:20261005T000000Z
 DTSTART:20261127T230000Z
 DTEND:20261128T010000Z
 SUMMARY:JV2 Practice — Aux Gym
 LOCATION:Cascade High School — Aux Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:a4546d13b8f3ab6737b5@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T040000Z
+SUMMARY:JV/Varsity Practice — Main Gym
+LOCATION:Cascade High School — Main Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -365,6 +365,17 @@ DTEND:20261201T013000Z
 SUMMARY:JV2 Practice — Aux Gym
 LOCATION:Cascade High School — Aux Gym
 DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ea49effe1f940ce4a0f4@cascadecougarsbasketball.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261201T020000Z
+DTEND:20261201T030000Z
+SUMMARY:MANDATORY — Winter Sports Parent/Team Meeting (6:00 PM)
+LOCATION:Cascade High School — auditorium or gym (location TBA)
+DESCRIPTION:Mandatory winter sports parent/team meeting starts at 6:00 PM November 30\, 2026. Auditorium or gym location TBA. End time not announced\; the 7:00 PM calendar end is only a placeholder.
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
