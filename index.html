@@ -106,10 +106,10 @@
 .sponsor-tier h3{display:flex;align-items:baseline;justify-content:space-between;gap:10px;color:#fff;font-size:16px;line-height:1.2;margin:0}
 .sponsor-tier h3 span{display:inline;color:var(--gold);font-size:14px;font-weight:800;margin:0}
 .sponsor-card .sponsor-tier-copy{font-size:14px;line-height:1.5;color:#aaa;max-width:none;margin:8px 0 0}
-.sponsor-list{list-style:none;display:grid;gap:8px;margin:10px 0 0;padding:0}
-.sponsor-entry{display:flex;align-items:center;gap:10px;color:#fff;font-size:14px;line-height:1.4}
-.sponsor-entry img{display:block;width:auto;max-width:140px;max-height:44px;object-fit:contain;background:#fff;border-radius:4px;padding:4px}
-.sponsor-entry span{display:block;color:#fff;font-size:14px;line-height:1.4;margin:0}
+.sponsor-list{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:10px;margin:14px 0 0;padding:0}
+.sponsor-entry{display:flex;align-items:center;gap:12px;min-height:76px;padding:12px;background:#1b1b1b;border:1px solid #333;border-radius:7px;color:#fff;font-size:14px;line-height:1.4}
+.sponsor-entry img{display:block;width:100px;height:58px;flex:0 0 100px;object-fit:contain;background:#fff;border-radius:4px;padding:6px}
+.sponsor-entry span,.sponsor-entry a{display:block;color:#fff;font-size:14px;line-height:1.4;margin:0;font-weight:750}.sponsor-entry a:hover,.sponsor-entry a:focus-visible{color:var(--gold);text-decoration:underline}
 .sponsor-empty{font-size:14px;color:#aaa;line-height:1.45;margin:0}
 .sponsor-cta{display:inline-block;margin-top:16px;color:var(--gold);font-size:14px;font-weight:800;text-decoration:none}
 .sponsor-cta:hover{text-decoration:underline}
@@ -470,8 +470,17 @@ menu.addEventListener('click',()=>{const o=nav.classList.toggle('open');menu.set
         image.decoding='async';
         item.append(image);
       }
-      const name=document.createElement('span');
+      // Optional vetted sponsor website; plain text is used when no URL is supplied.
+      const website=typeof sponsor.website==='string'?sponsor.website.trim():'';
+      const safeWebsite=/^https:\/\/[^\s]+$/i.test(website);
+      const name=document.createElement(safeWebsite?'a':'span');
       name.textContent=sponsor.name;
+      if(safeWebsite){
+        name.href=website;
+        name.target='_blank';
+        name.rel='noopener noreferrer';
+        name.setAttribute('aria-label','Visit '+sponsor.name+' website');
+      }
       item.append(name);
       list.append(item);
     }
