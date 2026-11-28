@@ -158,6 +158,46 @@
 .schedule-tab small{display:block;margin-top:4px;font-size:9px;font-weight:700;letter-spacing:.05em;opacity:.8}
 .schedule-empty{padding:28px;background:#f5f3ee;color:#666;font-size:13px}
 @media(max-width:620px){.schedule-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.schedule-tab{min-width:0;padding:10px 7px;font-size:11px}}
+
+/* 2026–27 team roster tables */
+.roster-shell{max-width:1110px;margin:auto}
+.roster-tabs{display:none;gap:9px;margin:0 0 22px}
+.roster-shell.enhanced .roster-tabs{display:flex}
+.roster-tab{flex:1;text-align:center;cursor:pointer;border:1px solid #454545;background:#141414;color:#fff;padding:15px 20px;font-size:15px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;min-height:70px;transition:background .15s,color .15s}
+.roster-tab small{display:block;font-size:10px;letter-spacing:.1em;font-weight:750;opacity:.8;margin-top:5px}
+.roster-tab.active{background:var(--gold);color:#101010;border-color:var(--gold)}
+.roster-tab:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.roster-panel{background:#151515;border:1px solid #303030;margin:0 0 22px}
+.roster-panel[hidden]{display:none}
+.roster-team-heading{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:25px 28px;border-bottom:2px solid var(--gold)}
+.roster-team-heading .eyebrow{margin:0 0 6px;color:var(--gold)}
+.roster-team-heading h3{font-family:Impact,'Arial Narrow',sans-serif;font-size:clamp(28px,3vw,42px);letter-spacing:.03em;margin:0;line-height:1;color:#fff}
+.roster-count{font-size:11px;font-weight:900;letter-spacing:.12em;color:var(--gold);white-space:nowrap}
+.roster-table-wrap{width:100%;overflow-x:auto}
+.roster-table{border-collapse:collapse;border-spacing:0;width:100%;min-width:360px;color:#f7f7f7}
+.roster-table thead{background:#242424;color:#c9c9c9}
+.roster-table thead th{font-size:11px;letter-spacing:.12em;font-weight:850;text-align:left;border-bottom:1px solid #404040;padding:13px 15px}
+.roster-table tbody tr{border-bottom:1px solid #303030}
+.roster-table tbody tr:nth-child(even){background:#1e1e1e}
+.roster-table tbody tr:last-child{border-bottom:0}
+.roster-table tbody th,.roster-table tbody td{padding:13px 15px;text-align:left;font-size:14px;line-height:1.25}
+.roster-table tbody th{font-weight:850}
+.roster-table .roster-number{font-weight:950;font-size:19px;color:var(--gold);font-variant-numeric:tabular-nums}
+.roster-pos{display:inline-block;min-width:27px;text-align:center;font-size:11px;font-weight:950;color:#141414;background:var(--gold);padding:5px 6px}
+.roster-footnote{margin:0;padding:12px 24px;color:#d2d2d2;font-size:12px;line-height:1.5;border-top:1px solid #343434}
+.roster-disclaimer{font-size:12px;color:#bcbcbc;margin:16px 0 0;line-height:1.65;max-width:940px}
+.sr-only{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+@media(max-width:600px){
+  .roster-tabs{gap:5px}
+  .roster-tab{min-height:60px;padding:11px 7px;font-size:12px;letter-spacing:.025em}
+  .roster-team-heading{padding:20px 15px}
+  .roster-count{font-size:9px}
+  .roster-table thead th{font-size:10px;padding:11px 8px;letter-spacing:.06em}
+  .roster-table tbody th,.roster-table tbody td{padding:13px 8px;font-size:12px}
+  .roster-table .roster-number{font-size:17px}
+  .roster-disclaimer{font-size:11px}
+}
+
 </style>
 </head>
 <body>
@@ -240,7 +280,61 @@
 
 <section class="section" id="schedule"><div class="section-head"><div><p class="eyebrow">2026–27</p><h2>GAME<br>SCHEDULE.</h2></div><p>Varsity, JV and JV2 game schedules, organized by team. Times and locations can change; the official OSAA schedule is the final source.</p></div><div class="schedule-tabs" role="group" aria-label="Choose basketball team schedule"><button type="button" class="schedule-tab active" data-team="Varsity" aria-pressed="true">Varsity <small class="schedule-count"></small></button><button type="button" class="schedule-tab" data-team="JV" aria-pressed="false">JV <small class="schedule-count"></small></button><button type="button" class="schedule-tab" data-team="JV2" aria-pressed="false">JV2 <small class="schedule-count"></small></button></div><div class="schedule-list" id="scheduleList" aria-live="polite"></div><div style="margin-top:26px"><a class="btn gold" href="https://www.osaa.org/teams/68636" target="_blank" rel="noopener">Official OSAA Schedule ↗</a></div></section>
 
-<div id="roster"></div><section class="section dark-section" id="teams"><div class="section-head"><div><p class="eyebrow">2026–27</p><h2>MEET THE<br>COUGS.</h2></div><p>The site is live before final rosters are complete. Varsity, JV and JV2 information will be filled in as each team is finalized.</p></div><div class="placeholder-grid"><div class="placeholder-card"><span>VARSITY</span><h3>PLAYER PROFILES</h3></div><div class="placeholder-card"><span>JV</span><h3>ROSTER</h3></div><div class="placeholder-card"><span>JV2</span><h3>ROSTER</h3></div></div></section>
+<div id="roster"></div><section class="section dark-section" id="teams">
+<div class="section-head"><div><p class="eyebrow">2026–27 • TEAM ROSTERS</p><h2>MEET THE<br>COUGS.</h2></div><p>Current Varsity, JV and JV2 working rosters, organized by jersey number. Team assignments and measurements may be updated during the season.</p></div>
+<div class="roster-shell" id="roster-display">
+<div class="roster-tabs" role="group" aria-label="Choose team roster">
+<button type="button" class="roster-tab active" data-roster="varsity" aria-pressed="true" aria-controls="roster-varsity">Varsity <small>10 PLAYERS</small></button>
+<button type="button" class="roster-tab" data-roster="jv" aria-pressed="false" aria-controls="roster-jv">JV <small>10 PLAYERS</small></button>
+<button type="button" class="roster-tab" data-roster="jv2" aria-pressed="false" aria-controls="roster-jv2">JV2 <small>12 PLAYERS</small></button>
+</div>
+<article class="roster-panel" id="roster-varsity" aria-labelledby="roster-title-varsity">
+<div class="roster-team-heading"><div><p class="eyebrow">2026–27 BOYS BASKETBALL</p><h3 id="roster-title-varsity">VARSITY</h3></div><span class="roster-count">10 PLAYERS</span></div>
+<div class="roster-table-wrap"><table class="roster-table"><caption class="sr-only">VARSITY roster</caption><thead><tr><th scope="col">#</th><th scope="col">PLAYER</th><th scope="col">GR</th><th scope="col">POS</th><th scope="col">HT</th></tr></thead><tbody><tr><td class="roster-number">0</td><th scope="row">Felix Prenevost</th><td>10</td><td><span class="roster-pos">G</span></td><td>5&#39;11&quot;</td></tr>
+<tr><td class="roster-number">2</td><th scope="row">Dominick Salvo</th><td>10</td><td><span class="roster-pos">G</span></td><td>5&#39;10&quot;</td></tr>
+<tr><td class="roster-number">3</td><th scope="row">Trajan Merriman</th><td>12</td><td><span class="roster-pos">G</span></td><td>5&#39;9&quot;</td></tr>
+<tr><td class="roster-number">4</td><th scope="row">Elijah Anderson</th><td>10</td><td><span class="roster-pos">F</span></td><td>6&#39;3&quot;</td></tr>
+<tr><td class="roster-number">5</td><th scope="row">Jay Erickson</th><td>12</td><td><span class="roster-pos">F</span></td><td>6&#39;0&quot;</td></tr>
+<tr><td class="roster-number">10</td><th scope="row">Brody Anundi</th><td>11</td><td><span class="roster-pos">F</span></td><td>6&#39;5&quot;</td></tr>
+<tr><td class="roster-number">11</td><th scope="row">Tanen Swing</th><td>12</td><td><span class="roster-pos">G</span></td><td>5&#39;10&quot;</td></tr>
+<tr><td class="roster-number">13</td><th scope="row">Jameson Acker</th><td>11</td><td><span class="roster-pos">F</span></td><td>6&#39;3&quot;</td></tr>
+<tr><td class="roster-number">23</td><th scope="row">Jacob Born</th><td>10</td><td><span class="roster-pos">G</span></td><td>5&#39;11&quot;</td></tr>
+<tr><td class="roster-number">33</td><th scope="row">Colbey Whelden</th><td>11</td><td><span class="roster-pos">G</span></td><td>6&#39;1&quot;</td></tr></tbody></table></div>
+
+</article>
+<article class="roster-panel" id="roster-jv" aria-labelledby="roster-title-jv">
+<div class="roster-team-heading"><div><p class="eyebrow">2026–27 BOYS BASKETBALL</p><h3 id="roster-title-jv">JUNIOR VARSITY</h3></div><span class="roster-count">10 PLAYERS</span></div>
+<div class="roster-table-wrap"><table class="roster-table"><caption class="sr-only">JUNIOR VARSITY roster</caption><thead><tr><th scope="col">#</th><th scope="col">PLAYER</th><th scope="col">GR</th><th scope="col">POS</th><th scope="col">HT</th></tr></thead><tbody><tr><td class="roster-number">1</td><th scope="row">Liam Etzel</th><td>9</td><td><span class="roster-pos">G</span></td><td>6&#39;0&quot;</td></tr>
+<tr><td class="roster-number">2</td><th scope="row">Xavier</th><td>10</td><td><span class="roster-pos">G</span></td><td>5&#39;9&quot;</td></tr>
+<tr><td class="roster-number">3</td><th scope="row">Ephraim Gosnell</th><td>11</td><td><span class="roster-pos">G</span></td><td>5&#39;9&quot;</td></tr>
+<tr><td class="roster-number">10</td><th scope="row">Madden Hughes</th><td>11</td><td><span class="roster-pos">G</span></td><td>5&#39;10&quot;</td></tr>
+<tr><td class="roster-number">12</td><th scope="row">Teak Shaw</th><td>10</td><td><span class="roster-pos">F</span></td><td>6&#39;0&quot;</td></tr>
+<tr><td class="roster-number">13</td><th scope="row">Gradyn Dobrkovsky</th><td>9</td><td><span class="roster-pos">F</span></td><td>6&#39;3&quot;</td></tr>
+<tr><td class="roster-number">20</td><th scope="row">Tyce Erickson</th><td>9</td><td><span class="roster-pos">G</span></td><td>6&#39;0&quot;</td></tr>
+<tr><td class="roster-number">22</td><th scope="row">Levi Hawley</th><td>11</td><td><span class="roster-pos">F</span></td><td>6&#39;2&quot;</td></tr>
+<tr><td class="roster-number">35</td><th scope="row">Jadeyn Kammerer</th><td>11</td><td><span class="roster-pos">F</span></td><td>6&#39;1&quot;</td></tr>
+<tr><td class="roster-number">55</td><th scope="row">Mason Toney</th><td>10</td><td><span class="roster-pos">G</span></td><td>5&#39;10&quot;</td></tr></tbody></table></div>
+
+</article>
+<article class="roster-panel" id="roster-jv2" aria-labelledby="roster-title-jv2">
+<div class="roster-team-heading"><div><p class="eyebrow">2026–27 BOYS BASKETBALL</p><h3 id="roster-title-jv2">JUNIOR VARSITY 2</h3></div><span class="roster-count">12 PLAYERS</span></div>
+<div class="roster-table-wrap"><table class="roster-table"><caption class="sr-only">JUNIOR VARSITY 2 roster</caption><thead><tr><th scope="col">#</th><th scope="col">PLAYER</th><th scope="col">GR</th><th scope="col">POS</th><th scope="col">HT</th></tr></thead><tbody><tr><td class="roster-number">1</td><th scope="row">Jaxson Unger</th><td>9</td><td><span class="roster-pos">G</span></td><td>5&#39;4&quot;</td></tr>
+<tr><td class="roster-number">2</td><th scope="row">Jojo Moisa</th><td>9</td><td><span class="roster-pos">G</span></td><td>5&#39;6&quot;</td></tr>
+<tr><td class="roster-number">3</td><th scope="row">Cooper Free</th><td>9</td><td><span class="roster-pos">G</span></td><td>5&#39;7&quot;</td></tr>
+<tr><td class="roster-number">5</td><th scope="row">Tyler Bartosz</th><td>9</td><td><span class="roster-pos">G</span></td><td>6&#39;2&quot;</td></tr>
+<tr><td class="roster-number">11</td><th scope="row">Alex Baldwin</th><td>10</td><td><span class="roster-pos">G</span></td><td>5&#39;5&quot;</td></tr>
+<tr><td class="roster-number">12</td><th scope="row">Brayden Bromley</th><td>9</td><td><span class="roster-pos">F</span></td><td>5&#39;9&quot;</td></tr>
+<tr><td class="roster-number">13</td><th scope="row">Eli Cable</th><td>9</td><td><span class="roster-pos">G</span></td><td>5&#39;7&quot;</td></tr>
+<tr><td class="roster-number">20/21*</td><th scope="row">Jack Kessel</th><td>9</td><td><span class="roster-pos">F</span></td><td>6&#39;0&quot;</td></tr>
+<tr><td class="roster-number">23</td><th scope="row">Tyeson Anderson</th><td>9</td><td><span class="roster-pos">F</span></td><td>6&#39;1&quot;</td></tr>
+<tr><td class="roster-number">32</td><th scope="row">Micah Zehr</th><td>9</td><td><span class="roster-pos">G</span></td><td>5&#39;8&quot;</td></tr>
+<tr><td class="roster-number">33</td><th scope="row">Carson Welty</th><td>9</td><td><span class="roster-pos">F</span></td><td>6&#39;4&quot;</td></tr>
+<tr><td class="roster-number">42</td><th scope="row">Ivan Weber</th><td>10</td><td><span class="roster-pos">F</span></td><td>6&#39;3&quot;</td></tr></tbody></table></div>
+<p class="roster-footnote">* Jack Kessel&#39;s jersey number (20 or 21) is awaiting confirmation.</p>
+</article>
+<p class="roster-disclaimer">Positions: G = Guard • F = Forward/Post. Rosters are current working assignments, not final OSAA-certified rosters. Heights are from program records, including some earlier estimates. Updated November 28, 2026.</p>
+</div>
+</section>
 
 
 <section class="section" id="program">
@@ -488,4 +582,24 @@ menu.addEventListener('click',()=>{const o=nav.classList.toggle('open');menu.set
 })();
 </script>
 
+
+<script>
+(function(){
+  const shell=document.getElementById('roster-display');
+  if(!shell)return;
+  const tabs=Array.from(shell.querySelectorAll('.roster-tab'));
+  const panels=Array.from(shell.querySelectorAll('.roster-panel'));
+  function showRoster(team){
+    tabs.forEach(button=>{
+      const selected=button.dataset.roster===team;
+      button.classList.toggle('active',selected);
+      button.setAttribute('aria-pressed',String(selected));
+    });
+    panels.forEach(panel=>{panel.hidden=panel.id!=='roster-'+team;});
+  }
+  showRoster('varsity');
+  shell.classList.add('enhanced');
+  tabs.forEach(button=>button.addEventListener('click',()=>showRoster(button.dataset.roster)));
+})();
+</script>
 </body></html>
