@@ -326,14 +326,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2c5d4909cae549586610@cascadecougarsbasketball.com
-DTSTAMP:20261005T000000Z
-DTSTART:20261128T200000Z
-DTEND:20261128T220000Z
-SUMMARY:TENTATIVE — JV/Varsity Practice — Main Gym
-LOCATION:Cascade High School — Main Gym
-DESCRIPTION:Tentative gym-sharing slot. Check cascadecougarsbasketball.com for current details and updates.
-STATUS:TENTATIVE
-SEQUENCE:0
+DTSTAMP:20261128T161700Z
+DTSTART:20261128T180000Z
+DTEND:20261128T200000Z
+SUMMARY:JV/Varsity Practice — Old Gym
+LOCATION:Cascade High School — Old Gym
+DESCRIPTION:Cascade Boys Basketball. Check cascadecougarsbasketball.com for current details and updates.
+STATUS:CONFIRMED
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:ac36271f72c12a354e4b@cascadecougarsbasketball.com
